@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">KidWatcher</string>
+    <string name="app_name">Kid Watcher</string>
+
+    <string name="headerTextView">Welcome to Kid Watcher</string>
+    <string name="startServiceSwitch">Start service</string>
 </resources>
