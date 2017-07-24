@@ -26,6 +26,8 @@ public class SmsReceiver extends BroadcastReceiver
                 {
                     messages[i] = SmsMessage.createFromPdu((byte[])pdus[i]);
                 }
+                String message = messages[0].getMessageBody().toString();
+                WordAnalyzer.AnalyzeString(message);
             }
         }
     }
