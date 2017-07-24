@@ -1,4 +1,4 @@
-package com.example.nist.kidwatcher;
+package com.nist.kidwatcher;
 
 import android.content.Intent;
 import android.os.Bundle;

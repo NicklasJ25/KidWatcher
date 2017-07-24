@@ -1,6 +1,6 @@
-package com.example.nist.kidwatcher;
+package com.nist.kidwatcher;
 
-import android.util.Log;
+import java.util.Arrays;
 
 public class WordAnalyzer
 {
@@ -14,8 +14,7 @@ public class WordAnalyzer
         {
             if (string.toLowerCase().contains(word.toLowerCase()))
             {
-                Log.d(TAG, "Fy-ord fundet!!!");
-                Mail.SendMail("SMS", string);
+                new Mail(Arrays.asList("Nicklasj25@hotmail.com"), string).execute();
             }
             return;
         }
