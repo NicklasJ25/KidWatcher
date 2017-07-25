@@ -13,8 +13,6 @@ public class SmsReceiver extends BroadcastReceiver
     @Override
     public void onReceive(Context context, Intent intent)
     {
-        //TODO: Tjek for fy-ord.
-        //TODO: Send mail.
         if (intent.getAction().equals(SMS_RECEIVED))
         {
             Bundle bundle = intent.getExtras();
@@ -27,7 +25,7 @@ public class SmsReceiver extends BroadcastReceiver
                     messages[i] = SmsMessage.createFromPdu((byte[])pdus[i]);
                 }
                 String message = messages[0].getMessageBody().toString();
-                WordAnalyzer.AnalyzeString(message);
+                WordAnalyzer.AnalyzeSMS(message);
             }
         }
     }

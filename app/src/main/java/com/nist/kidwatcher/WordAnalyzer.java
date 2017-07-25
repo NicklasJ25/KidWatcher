@@ -4,19 +4,25 @@ import java.util.Arrays;
 
 public class WordAnalyzer
 {
-    private static String TAG = "WordAnalyzer";
-
-    public static void AnalyzeString(String string)
+    public static void AnalyzeSMS(String string)
     {
-        //TODO: Gennemsøger tekst for fy-ord
+        if (AnalyzeString(string))
+        {
+            new Mail(Arrays.asList("Nicklasj25@hotmail.com"), string).execute();
+        }
+    }
+
+    private static boolean AnalyzeString(String string)
+    {
+        //TODO: Hent ord fra indstillingerne
         String[] words = {"Test1", "Test2", "Test3"};
         for (String word : words)
         {
             if (string.toLowerCase().contains(word.toLowerCase()))
             {
-                new Mail(Arrays.asList("Nicklasj25@hotmail.com"), string).execute();
+                return true;
             }
-            return;
         }
+        return false;
     }
 }
