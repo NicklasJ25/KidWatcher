@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/PaddingSizeTwo" android:topLeftRadius="@dimen/PaddingSizeTwo" android:topRightRadius="@dimen/PaddingSizeTwo" android:bottomLeftRadius="@dimen/PaddingSizeTwo" android:bottomRightRadius="@dimen/PaddingSizeTwo" />
+            <solid android:color="#7f7f7f" />
+        </shape>
+    </item>
+    <item android:state_selected="true" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/PaddingSizeTwo" android:topLeftRadius="@dimen/PaddingSizeTwo" android:topRightRadius="@dimen/PaddingSizeTwo" android:bottomLeftRadius="@dimen/PaddingSizeTwo" android:bottomRightRadius="@dimen/PaddingSizeTwo" />
+            <solid android:color="#9f9f9f" />
+        </shape>
+    </item>
+    <item android:state_selected="false" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/PaddingSizeTwo" android:topLeftRadius="@dimen/PaddingSizeTwo" android:topRightRadius="@dimen/PaddingSizeTwo" android:bottomLeftRadius="@dimen/PaddingSizeTwo" android:bottomRightRadius="@dimen/PaddingSizeTwo" />
+            <solid android:color="#008e0c" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/PaddingSizeTwo" android:topLeftRadius="@dimen/PaddingSizeTwo" android:topRightRadius="@dimen/PaddingSizeTwo" android:bottomLeftRadius="@dimen/PaddingSizeTwo" android:bottomRightRadius="@dimen/PaddingSizeTwo" />
+            <solid android:color="#00b40c" />
+        </shape>
+    </item>
+</selector>

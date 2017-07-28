@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Photo Vault</item>
+        <item>Video Vault</item>
+        <item>Themes</item>
+        <item>Fake cover</item>
+        <item>Customize background, set your favorite photo</item>
+        <item>Profiles, easy to change the locks</item>
+        <item>Automatic lock at given time</item>
+        <item>Automatic lock at given location</item>
+        <item>Hide AppLock icon</item>
+        <item>Random keyboard</item>
+        <item>Lock switch(WiFi,BT,3G/4G Data…)</item>
+        <item>More features coming soon…</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </array>
+    <array name="help_content">
+    </array>
+    <array name="languages">
+        <item>en_US</item>
+        <item>ar</item>
+        <item>de_DE</item>
+        <item>es_ES</item>
+        <item>fr_FR</item>
+        <item>it_IT</item>
+        <item>ja_JP</item>
+        <item>ko_KR</item>
+        <item>pl_PL</item>
+        <item>pt_PT</item>
+        <item>pt_BR</item>
+        <item>ru_RU</item>
+        <item>vi_VN</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+        <item>es</item>
+        <item>iw</item>
+        <item>nl</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>sv</item>
+        <item>nb</item>
+        <item>hi</item>
+    </array>
+    <array name="left_menu_sort">
+        <item>MainPagerFragment</item>
+        <item>PluginsFragement</item>
+        <item>ThemePickerFragment</item>
+        <item>InfosCenterFragment</item>
+        <item>BillingCenterFragment</item>
+    </array>
+    <array name="newest_activities">
+        <item>ScenesActivity</item>
+        <item>TimerActivity</item>
+        <item>LocationActivity</item>
+        <item>PictureHiderAlbumsActivity</item>
+        <item>VideoHiderAlbumsActivity</item>
+        <item>ThemePickerFragment</item>
+        <item>FakePagePickerFragment</item>
+        <item>PluginsFragement</item>
+    </array>
+    <array name="short_exit_time_limit_name">
+        <item>@string/seconds_0</item>
+        <item>@string/seconds_15</item>
+        <item>@string/seconds_30</item>
+        <item>@string/minutes_1</item>
+        <item>@string/minutes_3</item>
+        <item>@string/minutes_5</item>
+        <item>@string/after_screen_off</item>
+    </array>
+    <array name="short_exit_time_limit_value">
+        <item>0SECONDS</item>
+        <item>15SECONDS</item>
+        <item>30SECONDS</item>
+        <item>1MINUTE</item>
+        <item>3MINUTES</item>
+        <item>5MINUTES</item>
+        <item>SCREEN_OFF</item>
+    </array>
+    <array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </array>
+    <array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </array>
+</resources>

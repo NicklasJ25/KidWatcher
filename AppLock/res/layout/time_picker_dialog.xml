@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@c1134b/time_picker_dialog" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:id="@c1134b/time_display_background" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800ff" layout="@c1135c/time_header_label" />
+    </FrameLayout>
+    <com.domobile.widget.timepicker.RadialPickerLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/time_picker" android:background="@color/circle_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f08014e" />
+    <View android:id="@c1134b/line" android:background="@color/line_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <Button android:textSize="@dimen/done_label_size" android:textColor="@color/done_text_color" android:id="@c1134b/done_button" android:background="@c1133a/done_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@c1137e/done_label" />
+</LinearLayout>

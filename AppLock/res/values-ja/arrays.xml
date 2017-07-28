@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>画像倉庫 写真セーフ</item>
+        <item>ビデオ倉庫 安全ビデオ</item>
+        <item>自己定義のロック解除画面。お気に入りの絵を選択して下さい</item>
+        <item>シーン・モード、アプリグルーグの速度ロック</item>
+        <item>指定時間にアプリを自動的ロックする</item>
+        <item>指定ロケーションでアプリを自動的ロックする</item>
+        <item>アプリロックのアイコンを隠す</item>
+        <item>任意キーボード</item>
+        <item>スイッチ・ロック（WiFi、ブルーツース、モバイル・データベース、自動同期化）</item>
+        <item>今後もっと多くの機能をリリースする</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </array>
+</resources>

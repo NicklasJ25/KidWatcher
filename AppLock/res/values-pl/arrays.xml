@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Sejf na zdjęcia</item>
+        <item>Sejf na filmy wideo</item>
+        <item>Dostosuj tło, ustaw swoje ulubione zdjęcie</item>
+        <item>Profile, łatwa zmiana blokad</item>
+        <item>Automatyczna blokada o określonej godzinie</item>
+        <item>Automatyczna blokada w danej lokalizacji</item>
+        <item>Ukryj ikonę AppLock</item>
+        <item>Losowe klawiatury</item>
+        <item>Przełącznik blokady (WiFi, BT, Dane 3G/4G...)</item>
+        <item>Więcej funkcji już niedługo...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>N</item>
+        <item>P</item>
+        <item>W</item>
+        <item>Ś</item>
+        <item>C</item>
+        <item>P</item>
+        <item>S</item>
+    </array>
+</resources>

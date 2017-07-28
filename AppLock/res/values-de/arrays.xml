@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Fototresor</item>
+        <item>Videotresor</item>
+        <item>Passen Sie den Hintergrund an, stellen Sie Ihr Lieblingsfoto ein.</item>
+        <item>Profile. Einfach, um die Sperren zu ändern</item>
+        <item>Automatische Sperre zu festgelegter Zeit</item>
+        <item>Automatische Sperre an bestimmten Standort</item>
+        <item>AppLock-Symbol ausblenden</item>
+        <item>Zufallstastatur</item>
+        <item>Sperrtaste (WiFi, BT, 3G/4G Daten ...)</item>
+        <item>Weitere Funktionen folgen bald...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>S</item>
+        <item>M</item>
+        <item>D</item>
+        <item>M</item>
+        <item>D</item>
+        <item>F</item>
+        <item>S</item>
+    </array>
+</resources>

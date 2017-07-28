@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.domobile.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.domobile.preference.PreferenceCategory android:title="@c1137e/setting_group_notification">
+        <com.domobile.preference.SwitchPreference android:icon="@c1133a/settings_quick_lock" android:title="@c1137e/setting_notify_title" android:key="show_notification" android:summary="@c1137e/setting_notify_gone_summary" android:defaultValue="false" />
+        <com.domobile.preference.SwitchPreference android:icon="@c1133a/settings_profile_alert" android:title="@c1137e/notify_when_codeset_excute_title" android:key="notify_when_codeset_excute" android:summary="@c1137e/notify_when_codeset_excute_summary" android:defaultValue="true" />
+    </com.domobile.preference.PreferenceCategory>
+    <com.domobile.preference.PreferenceCategory android:title="@c1137e/advance">
+        <com.domobile.preference.SwitchPreference android:icon="@c1133a/settings_hide_from_gallery" android:title="@c1137e/enable_send_action" android:key="enable_send_action" android:summary="@c1137e/enable_send_action_summary" android:defaultValue="true" />
+        <com.domobile.preference.SwitchPreference android:icon="@c1133a/settings_lock_new" android:title="@c1137e/pref_lock_newest_install_app_title" android:key="lock_newest_installed_app" android:summary="@c1137e/pref_lock_newest_install_app_msg" android:defaultValue="true" />
+        <com.domobile.preference.Preference android:icon="@c1133a/settings_language" android:title="@c1137e/choose_language" android:key="applock_language" />
+        <com.domobile.preference.Preference android:icon="@c1133a/settings_about" android:title="@c1137e/about" android:key="applock_about" />
+    </com.domobile.preference.PreferenceCategory>
+</com.domobile.preference.PreferenceScreen>

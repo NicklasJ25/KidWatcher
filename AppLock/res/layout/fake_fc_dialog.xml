@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/fake_fc_toplayout" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@id/custom_dialog_animView" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@c1135c/fake_dialog_layout" />
+    </FrameLayout>
+</FrameLayout>

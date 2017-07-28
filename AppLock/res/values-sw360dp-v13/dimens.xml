@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minimum_num_button_height">64.0dip</dimen>
+    <dimen name="guide_step_height">65.0dip</dimen>
+    <dimen name="plugins_child_name_textsize">14.0sp</dimen>
+    <item type="dimen" name="timer_weekdays_margin">@dimen/PaddingSizeSmall</item>
+    <item type="dimen" name="timer_weekdays_textsize">@dimen/TextSizeSmaller</item>
+    <dimen name="timer_weekdays_width">40.0dip</dimen>
+</resources>

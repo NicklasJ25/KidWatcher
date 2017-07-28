@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:padding="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c1134b/imvIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:layout_marginRight="@dimen/PaddingSizeLarge" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/primary_textcolor" android:id="@c1134b/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/TextSizeSmallest" android:textColor="@color/secondary_textcolor" android:ellipsize="end" android:id="@c1134b/txvDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c1134b/imvRemind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/icon_remind" android:contentDescription="0x0" />
+</LinearLayout>

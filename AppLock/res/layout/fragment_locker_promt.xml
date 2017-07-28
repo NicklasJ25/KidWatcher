@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:background="@color/white" app:padding="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="44dp">
+        <TextView app:textSize="@dimen/TextSizeMiddle" app:textStyle="bold" app:textColor="@color/accent_material_light" app:id="@c1134b/fragment_locker_promt_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" />
+        <TextView app:textSize="@dimen/TextSizeSmaller" app:textColor="0x1060007" app:id="@c1134b/fragment_locker_promt_message" app:paddingTop="@dimen/PaddingSizeSmaller" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@c1137e/userinfo_premium" />
+    </LinearLayout>
+    <FrameLayout app:id="@id/list_item_group_margin" app:background="@drawable/abs__ab_solid_shadow_holo" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080029" />
+</LinearLayout>

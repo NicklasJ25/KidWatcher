@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardView">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@c1134b/vgFacebook" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/PaddingSizeLarge" android:paddingRight="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080121">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/icon_circle_facebook" android:contentDescription="0x0" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/preference_summary_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:text="@c1137e/facebook" android:maxLines="1" />
+            </LinearLayout>
+            <View android:background="@color/divider_gray_std" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080170" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@c1134b/vgTwitter" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/PaddingSizeLarge" android:paddingRight="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080121">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/icon_circle_twitter" android:contentDescription="0x0" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/preference_summary_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:text="@c1137e/twitter" android:maxLines="1" />
+            </LinearLayout>
+            <View android:background="@color/divider_gray_std" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080170" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@c1134b/vgLinkedin" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/PaddingSizeLarge" android:paddingRight="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080121">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/icon_circle_linkedin" android:contentDescription="0x0" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/preference_summary_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:text="@c1137e/linkedin" android:maxLines="1" />
+            </LinearLayout>
+            <View android:background="@color/divider_gray_std" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080170" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@c1134b/vgGooglePlus" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/PaddingSizeLarge" android:paddingRight="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080121">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/icon_circle_google" android:contentDescription="0x0" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/preference_summary_textcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:text="@c1137e/goole_plus" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:layout_marginRight="@dimen/PaddingSizeLarge" style="@style/CardView">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/custom_dialog_message_textcolor_material_light" android:id="@c1134b/theme_tips_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/PaddingSizeLarge" />
+        <TextView android:textSize="@dimen/TextSizeSmall" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeLarge" android:layout_marginRight="@dimen/PaddingSizeSmall" android:layout_marginBottom="@dimen/PaddingSizeLarge" android:text="0x104000a" style="@style/custom_dialog_button" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

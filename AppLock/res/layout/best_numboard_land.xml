@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@c1134b/numboard_whole_layout" android:tag="0x7f0700a7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@c1134b/numboard_below_appinfo" android:tag="0x7f0700aa" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:id="@c1134b/numboard_infoslayout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@c1134b/numboard_appinfo" android:layout_width="match_parent" android:layout_height="match_parent"
+                <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c1134b/numboard_appicon_slot" android:tag="0x7f0700ab" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@c1134b/numboard_appicon_imageview" android:tag="0x7f0700a1" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0"
+            <LinearLayout android:orientation="vertical" android:id="@c1134b/numboard_edittext_bg" android:tag="0x7f0700af" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:enabled="false" android:textSize="16sp" android:textColor="#ffffff" android:textColorHint="#77ffffff" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/numboard_pwd_edittext" android:tag="0x7f0700a3" android:background="0x0" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="35dp" android:maxLines="1" android:password="true" android:singleLine="true" android:maxLength="16" android:shadowColor="#f6dbe0" android:shadowDx="-1.0" android:shadowDy="-1.0" android:shadowRadius="1.0" android:numeric="integer|signed|decimal" android:editable="false" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@c1134b/numboard_numslayout" android:tag="0x7f0700ae" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num1_button" style="@c1138f/numboard_number_button" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num2_button" style="@c1138f/numboard_number_button_center" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num3_button" style="@c1138f/numboard_number_button_right" />
+                </android.support.percent.PercentRelativeLayout>
+                <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num4_button" style="@c1138f/numboard_number_button" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num5_button" style="@c1138f/numboard_number_button_center" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num6_button" style="@c1138f/numboard_number_button_right" />
+                </android.support.percent.PercentRelativeLayout>
+                <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num7_button" style="@c1138f/numboard_number_button" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num8_button" style="@c1138f/numboard_number_button_center" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num9_button" style="@c1138f/numboard_number_button_right" />
+                </android.support.percent.PercentRelativeLayout>
+                <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_exit_button" android:tag="10" style="@c1138f/numboard_number_button" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_back_button" android:tag="10" android:visibility="gone" style="@c1138f/numboard_number_button" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_num0_button" style="@c1138f/numboard_number_button_center" />
+                    <com.domobile.widget.NumBoardButton android:id="@c1134b/numboard_delete_button" android:tag="11" style="@c1138f/numboard_number_button_right" />
+                </android.support.percent.PercentRelativeLayout>
+                <ImageButton android:id="@c1134b/numboard_sure_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.domobile.widget.FingerPrintStateView android:id="@c1134b/locker_board_fingerprint" android:tag="0x7f0700b0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@c1134b/locker_board_more" android:layout_alignTop="@c1134b/locker_board_more" />
+    <ImageView android:id="@c1134b/locker_board_more" android:tag="0x7f0700a6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

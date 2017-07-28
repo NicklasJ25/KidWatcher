@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/drawer_promt_cardview" app:background="0x0" app:paddingTop="@dimen/PaddingSizeSmaller" app:paddingBottom="@dimen/PaddingSizeSmaller" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.domobile.widget.AutoResizeImageView app:id="@c1134b/drawer_promt_imageview" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content" app:scaleType="centerCrop" />
+</RelativeLayout>

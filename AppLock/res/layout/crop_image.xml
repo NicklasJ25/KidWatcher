@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.domobile.cropimage.CropImageView android:id="@id/image" android:background="@color/crop_imageview_bgcolor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/crop_imageview_buttons_bgcolor" android:padding="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/save" android:background="@drawable/background_button_flat" android:layout_height="UNKNOWN_DATA_0x7f0800ad" android:text="0x104000a" style="@style/Widget_Holo_Button_light" />
+        <View android:background="@color/custom_dialog_buttons_separate_line_bgcolor" android:layout_width="UNKNOWN_DATA_0x7f08002a" android:layout_height="match_parent" android:layout_margin="@dimen/PaddingSizeSmaller" />
+        <Button android:id="@id/discard" android:background="@drawable/background_button_flat" android:layout_height="UNKNOWN_DATA_0x7f0800ad" android:text="0x1040000" style="@style/Widget_Holo_Button_light" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/root" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.domobile.widget.OverscrollRecyclerView app:id="@c1134b/albums" app:background="@color/white" app:fadingEdge="UNKNOWN_DATA_0x0" app:fillViewport="true" style="@style/domo_listview" />
+    <ImageView app:orientation="vertical" app:id="0x1020004" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@c1133a/empty_placeholder" app:scaleType="centerInside" />
+    <com.getbase.floatingactionbutton.FloatingActionButton app:id="@c1134b/gallerypicker_add" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/PaddingSizeMiddle" app:layout_marginBottom="@dimen/PaddingSizeMiddle" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:fab_icon="@c1133a/ic_fab_plus" app:fab_size="0" />
+</RelativeLayout>

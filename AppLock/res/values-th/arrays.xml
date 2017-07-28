@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>คลังภาพ</item>
+        <item>คลังวิดีโอ</item>
+        <item>ปรับแต่งพื้นหลัง เลือกภาพที่คุณชอบ</item>
+        <item>การทำโปรไฟล์ เลือกเปลี่ยนการล็อคได้ง่าย</item>
+        <item>ล็อคอัตโนมัติในเวลาที่กำหนด</item>
+        <item>ล็อคอัตโนมัติในสถานที่ที่กำหนด</item>
+        <item>ซ่อนไอคอน AppLock</item>
+        <item>แป้นพิมพ์แบบสุ่ม</item>
+        <item>ล็อคสวิตช์ (WiFi, BT, ข้อมูล 3G/4G... )</item>
+        <item>พบกับคุณสมบัติเพิ่มเติมเร็วๆ นี้ ...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>อา</item>
+        <item>จ</item>
+        <item>อ</item>
+        <item>พ</item>
+        <item>พฤ</item>
+        <item>ศ</item>
+        <item>ส</item>
+    </array>
+</resources>

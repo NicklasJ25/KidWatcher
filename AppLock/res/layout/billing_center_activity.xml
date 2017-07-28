@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/billing_center_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@c1134b/billing_center_scroll_content" android:paddingTop="@dimen/PaddingSizeMiddle" android:paddingBottom="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" style="@c1138f/billing_center_cardview">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@c1134b/billing_center_advance_user_layout" android:background="?attr/selectableItemBackground" android:padding="@dimen/PaddingSizeSmallest" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/billing_center_advance_user_textcolor" android:id="@c1134b/billing_center_advance_user" android:text="@c1137e/advance_user" android:drawableLeft="@c1133a/diamond" android:layout_toLeftOf="@c1134b/billing_center_user_button" style="@c1138f/billing_center_mode_title" />
+                        <TextView android:textColor="@color/billing_center_advance_user_textcolor" android:id="@c1134b/billing_advance_user_summary" android:layout_toLeftOf="@c1134b/billing_center_user_button" android:layout_below="@c1134b/billing_center_advance_user" style="@c1138f/billing_center_mode_summary" />
+                        <ImageButton android:id="@c1134b/billing_center_user_button" android:visibility="visible" style="@c1138f/billing_center_checker_button" />
+                    </RelativeLayout>
+                    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="@dimen/PaddingSizeSmaller" android:paddingBottom="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <Button android:id="@c1134b/billing_subs_monthly" android:text="@c1137e/advance_user_monthly" style="@c1138f/billing_center_subs_button" />
+                        <Button android:id="@c1134b/billing_subs_yearly" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginRight="@dimen/PaddingSizeMiddle" android:text="@c1137e/advance_user_yearly" style="@c1138f/billing_center_subs_button" />
+                    </LinearLayout>
+                    <Button android:textSize="@dimen/TextSizeMiddle" android:textColor="?attr/textColorSummary" android:id="@c1134b/btnCancelSubscription" android:background="@c1133a/btn_subscribe_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeMiddle" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:layout_marginRight="@dimen/PaddingSizeMiddle" android:layout_marginBottom="@dimen/PaddingSizeSmaller" android:text="@c1137e/cancel_subscription" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:layout_marginBottom="@dimen/PaddingSizeSmaller" style="@c1138f/billing_center_cardview">
+                    <RelativeLayout android:id="@c1134b/billing_center_admode_bgview" android:paddingBottom="@dimen/billing_center_admode_height" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        <RelativeLayout android:id="@c1134b/billing_center_admode_layout" android:background="?attr/selectableItemBackground" android:padding="@dimen/PaddingSizeSmallest" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textColor="@color/billing_center_admode_user_textcolor" android:id="@c1134b/billing_center_admode_title" android:paddingTop="@dimen/PaddingSizeSmaller" android:text="@c1137e/billing_ad_mode" android:layout_toLeftOf="@c1134b/billing_center_admode_button" style="@c1138f/billing_center_mode_title" />
+                            <TextView android:textColor="@color/billing_center_admode_user_textcolor" android:id="@c1134b/billing_center_admode_summary" android:text="@c1137e/billing_ad_mode_summary" android:layout_toLeftOf="@c1134b/billing_center_admode_button" android:layout_below="@c1134b/billing_center_admode_title" style="@c1138f/billing_center_mode_summary" />
+                            <ImageButton android:id="@c1134b/billing_center_admode_button" style="@c1138f/billing_center_checker_button" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <FrameLayout android:id="@id/adview_layout" style="@c1138f/billing_center_adlayout" />
+            </RelativeLayout>
+            <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" style="@c1138f/billing_center_cardview">
+                <RelativeLayout android:id="@c1134b/billing_center_freemode_layout" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/PaddingSizeSmallest" android:paddingTop="@dimen/PaddingSizeSmall" android:paddingRight="@dimen/PaddingSizeSmallest" android:paddingBottom="@dimen/PaddingSizeSmall" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/billing_center_freemode_user_textcolor" android:id="@c1134b/billing_center_freemode_title" android:text="@c1137e/billing_free_mode" android:layout_toLeftOf="@c1134b/billing_center_freemode_button" style="@c1138f/billing_center_mode_title" />
+                    <TextView android:textColor="@color/billing_center_freemode_user_textcolor" android:id="@c1134b/billing_center_freemode_summary" android:text="@c1137e/billing_free_mode_summary" android:layout_toLeftOf="@c1134b/billing_center_freemode_button" android:layout_below="@c1134b/billing_center_freemode_title" style="@c1138f/billing_center_mode_summary" />
+                    <ImageButton android:id="@c1134b/billing_center_freemode_button" style="@c1138f/billing_center_checker_button" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c1134b/billing_center_ulayout" android:background="@c1133a/billing_center_background" android:paddingBottom="@dimen/PaddingSizeSmallest" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f08009d"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingTop="@dimen/PaddingSizeSmallest" android:paddingRight="@dimen/PaddingSizeSmaller" android:paddingBottom="@dimen/PaddingSizeSmallest" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.domobile.eframe.ui.RollTextView android:id="@c1134b/billing_center_uinfo" android:text="@c1137e/general_user_info" android:drawableLeft="@c1133a/toolbar_person" style="@c1138f/billing_center_uinfo_text" />
+                <com.domobile.eframe.ui.RollTextView android:id="@c1134b/billing_center_usummary" android:text="@c1137e/billing_free_mode_summary" android:layout_below="@c1134b/billing_center_uinfo" style="@c1138f/billing_center_usummary_text" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.domobile.eframe.ui.NotifyChangedLinearLayout android:orientation="vertical" android:id="@c1134b/billing_center_feature_layout" android:background="@color/billing_center_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/billing_center_ulayout_height" android:layout_alignParentBottom="true">
+        <com.domobile.eframe.ui.NotifyChangedTextView android:id="@c1134b/billing_center_why" style="@c1138f/billing_center_why" />
+        <ListView android:id="@c1134b/billing_listview" android:paddingBottom="@dimen/PaddingSizeSmaller" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:divider="0x0" android:dividerHeight="@dimen/PaddingSizeZero" style="@style/domo_listview" />
+        <Button android:id="@c1134b/billing_upgrade_button" android:text="@c1137e/upgrade_right_now" style="@c1138f/billing_center_upgrade_button" />
+    </com.domobile.eframe.ui.NotifyChangedLinearLayout>
+</RelativeLayout>

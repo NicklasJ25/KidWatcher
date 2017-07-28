@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?unknown_attr_ref: 101042c">
+    <item android:id="0x102002e">
+        <shape android:shape="rectangle">
+            <solid android:color="0x106000b" />
+            <corners android:radius="@dimen/round_radius_std" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@c1133a/ripple_item_pressed" />
+            <item android:state_focused="true" android:drawable="@c1133a/ripple_item_pressed" />
+            <item android:state_selected="true" android:drawable="@c1133a/ripple_item_pressed" />
+            <item android:drawable="@c1133a/ripple_item_normal" />
+        </selector> />
+</ripple>

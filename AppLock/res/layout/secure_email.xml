@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/PaddingSizeMiddle" android:paddingTop="@dimen/PaddingSizeSmaller" android:paddingRight="@dimen/PaddingSizeMiddle" android:paddingBottom="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="?attr/textColorDefault" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@c1137e/secure_email_warning" />
+    <EditText android:textSize="@dimen/TextSizeMiddle" android:textColor="?attr/textColorDefault" android:id="@c1134b/edittext_security_email" android:background="@drawable/edittext_holo_light" android:paddingLeft="@dimen/PaddingSizeMiddle" android:paddingRight="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:hint="@c1137e/secure_email" android:singleLine="true" />
+</LinearLayout>

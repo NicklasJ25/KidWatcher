@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@c1134b/contentView" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.domobile.frame.http.image.CacheImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/imvImage" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

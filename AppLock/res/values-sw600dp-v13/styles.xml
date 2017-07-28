@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="style_appinfo_older_space">
+        <item name="android:layout_height">410.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="layout_heightPercent">-100.0%</item>
+    </style>
+    <style name="style_iconslot_older_snowman" />
+    <style name="style_appicon_slot">
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:background">@drawable/num_appicon_slot</item>
+        <item name="android:layout_marginTop">150.0dip</item>
+    </style>
+    <style name="style_password_edittext_bgview">
+        <item name="android:paddingLeft">45.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">45.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:layout_width">360.0dip</item>
+    </style>
+    <style name="style_numslayout_portrait">
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">360.0dip</item>
+    </style>
+    <style name="style_numslayout_landscape">
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">360.0dip</item>
+    </style>
+    <style name="style_password_edittext_bgview_land">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingLeft">45.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">45.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:layout_width">360.0dip</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/cardview_light_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c1134b/drawer_userinfo" android:background="@c1133a/leftmenu_header" android:padding="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@c1134b/drawer_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:src="@c1133a/person_image_empty" />
+            <TextView android:textSize="@dimen/TextSizeMiddle" android:textStyle="bold" android:textColor="@color/primary_text_default_material_dark" android:id="@c1134b/drawer_level" android:paddingTop="@dimen/PaddingSizeSmaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/binlling_center" android:layout_toRightOf="@c1134b/drawer_avatar" />
+            <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/primary_text_default_material_dark" android:id="@c1134b/drawer_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@c1134b/drawer_level" android:layout_alignLeft="@c1134b/drawer_level" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView android:id="@c1134b/drawer_listview" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="0x0" android:layout_weight="1.0" style="@style/domo_listview" />
+</LinearLayout>

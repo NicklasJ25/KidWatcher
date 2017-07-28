@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/bg_white_std" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@c1134b/rcvItemList" android:background="@color/bg_white_holo" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls" />
+</LinearLayout>

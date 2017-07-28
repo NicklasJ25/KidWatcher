@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.domobile.frame.ui.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/domo_hline_t" android:paddingRight="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080133" android:minWidth="@dimen/menu_popup_minwidth">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020006" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f080132" android:layout_height="UNKNOWN_DATA_0x7f080132" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginTop="@dimen/PaddingSizeSmall" android:layout_marginBottom="@dimen/PaddingSizeSmall" android:scaleType="centerInside" />
+    <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:duplicateParentState="true" android:layout_width="UNKNOWN_DATA_0x7f080032" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_weight="1.0">
+        <TextView android:ellipsize="marquee" android:id="0x1020016" android:fadingEdge="horizontal" android:layout_width="match_parent" android:lines="1" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/domo_menu_text" />
+    </RelativeLayout>
+</com.domobile.frame.ui.ListMenuItemView>

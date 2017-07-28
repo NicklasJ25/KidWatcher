@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@id/acstract_gallery_pager_content" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <android.support.v7.widget.Toolbar app:id="@id/action_toolbar" app:background="@color/material_blue_grey_800" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004f" app:minHeight="?attr/actionBarSize" app:elevation="@dimen/PaddingSizeTwo" app:outlineProvider="background" app:popupTheme="?attr/actionBarPopupTheme" app:theme="?attr/actionBarTheme" />
+</RelativeLayout>

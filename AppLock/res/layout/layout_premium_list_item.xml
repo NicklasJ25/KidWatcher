@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingLeft="@dimen/PaddingSizeLarge" android:paddingTop="@dimen/PaddingSizeSmallest" android:paddingRight="@dimen/PaddingSizeLarge" android:paddingBottom="@dimen/PaddingSizeSmallest" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/secondary_textcolor" android:id="@c1134b/txvDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawableLeft="@c1133a/icon_done_green" android:drawablePadding="@dimen/PaddingSizeSmall" />
+</FrameLayout>

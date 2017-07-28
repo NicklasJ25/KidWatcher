@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@c1133a/toolbar_trash" android:id="@c1134b/action_delete" android:orderInCategory="1" android:title="@string/delete" />
+    <item android:icon="@c1133a/icon_save" android:id="@c1134b/action_save" android:orderInCategory="1" android:title="@string/save" />
+</menu>

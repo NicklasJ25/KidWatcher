@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="vertical" android:id="@c1134b/verify_anim_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@c1134b/verify_scrollview" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@c1134b/numboard_parent" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.domobile.widget.UnlockGiftView android:id="@c1134b/unlock_page_gift" android:layout_width="UNKNOWN_DATA_0x7f080186" android:layout_height="UNKNOWN_DATA_0x7f080186" android:src="@c1133a/unlock_gift0" />
+    <FrameLayout android:id="@id/adview_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@c1134b/verify_fakeview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@c1134b/verify_foreground1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_weight="1.0" />
+            <View android:id="@c1134b/verify_foreground2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@c1135c/permission_toplayer_warning" />
+</RelativeLayout>

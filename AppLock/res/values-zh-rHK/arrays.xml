@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>圖片保險箱</item>
+        <item>視頻保險箱</item>
+        <item>自定義解鎖背景,選擇妳最喜歡的圖片</item>
+        <item>情景模式, 應用分組快速鎖定</item>
+        <item>自動根據時間鎖定應用</item>
+        <item>自動根據位置鎖定應用</item>
+        <item>隱藏應用鎖圖標</item>
+        <item>隨機鍵盤</item>
+        <item>鎖開關(WiFi,藍牙,移動數據,自動同步)</item>
+        <item>更多功能即將發布…</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </array>
+    <array name="help_content">
+    </array>
+</resources>

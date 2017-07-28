@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/gallery_root" android:background="@color/photo_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/adview_layout">
+        <include layout="@layout/gl_root_group" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/adview_layout" android:layout_marginTop="@dimen/action_titlebar_height" android:layout_centerHorizontal="true" style="@style/ads_layout" />
+    <FrameLayout android:id="@id/header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/footer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

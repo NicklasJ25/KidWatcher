@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000" android:drawable="@c1133a/ic_rate_star_market_off" />
+    <item android:id="0x102000f" android:drawable="@c1133a/ic_rate_star_market_half" />
+    <item android:id="0x102000d" android:drawable="@c1133a/ic_rate_star_market_on" />
+</layer-list>

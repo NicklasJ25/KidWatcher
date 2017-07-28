@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Foto Vault</item>
+        <item>Video Vault</item>
+        <item>Anpassa bakgrund, ange din favoritbild</item>
+        <item>Profiler, lätt att byta lås</item>
+        <item>Automatisk låsning vid given tidpunkt</item>
+        <item>Automatiskt lås på given plats</item>
+        <item>Göm AppLock ikon</item>
+        <item>Slumpmässig tangentbord</item>
+        <item>Lås omkopplaren (WiFi, BT, 3G/4G data ...)</item>
+        <item>Fler funktioner kommer snart ...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>O</item>
+        <item>T</item>
+        <item>F</item>
+        <item>L</item>
+    </array>
+</resources>

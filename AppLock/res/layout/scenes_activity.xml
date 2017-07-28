@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/cardview_gray_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView app:id="@c1134b/scenes_list" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <com.getbase.floatingactionbutton.FloatingActionButton app:id="@c1134b/scenes_add" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/PaddingSizeMiddle" app:layout_marginBottom="@dimen/PaddingSizeMiddle" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:fab_icon="@c1133a/ic_fab_plus" app:fab_size="0" />
+</RelativeLayout>

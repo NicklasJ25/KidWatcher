@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@c1133a/toolbar_ok" app:enabled="true" app:id="@c1134b/menu_action_save" app:orderInCategory="101" app:title="@string/save" app:showAsAction="always" />
+</menu>

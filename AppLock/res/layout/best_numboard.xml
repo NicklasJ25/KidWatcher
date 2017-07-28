@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.domobile.eframe.ui.NotifyChangedRelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/numboard_whole_layout" app:tag="0x7f0700a8" app:layout_width="match_parent" app:layout_height="match_parent">
+    <View app:id="@c1134b/numboard_below_appinfo" app:tag="0x7f0700a9" app:background="@color/white" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:orientation="vertical" app:id="@c1134b/numboard_infoslayout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <FrameLayout app:id="@c1134b/numboard_appinfo" app:layout_width="match_parent" app:layout_height="match_parent"
+                <FrameLayout app:id="@c1134b/numboard_appicon_slot" app:tag="0x7f0700a2" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <ImageView app:id="@c1134b/numboard_appicon_imageview" app:tag="0x7f0700a1" app:layout_width="UNKNOWN_DATA_0x2401" app:layout_height="UNKNOWN_DATA_0x2401" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/numboard_edittext_bg" app:tag="0x7f0700a4" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <EditText app:enabled="false" app:textSize="16sp" app:textColor="#ffffff" app:textColorHint="#77ffffff" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/numboard_pwd_edittext" app:tag="0x7f0700a3" app:background="0x0" app:focusable="false" app:focusableInTouchMode="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="36dp" app:maxLines="1" app:password="true" app:singleLine="true" app:maxLength="16" app:shadowColor="#f6dbe0" app:shadowDx="-1.0" app:shadowDy="-1.0" app:shadowRadius="1.0" app:numeric="integer|signed|decimal" app:editable="false" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:id="@c1134b/numboard_numslayout" app:tag="0x7f0700a5" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num1_button" style="@c1138f/numboard_number_button" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num2_button" style="@c1138f/numboard_number_button_center" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num3_button" style="@c1138f/numboard_number_button_right" />
+            </android.support.percent.PercentRelativeLayout>
+            <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num4_button" style="@c1138f/numboard_number_button" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num5_button" style="@c1138f/numboard_number_button_center" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num6_button" style="@c1138f/numboard_number_button_right" />
+            </android.support.percent.PercentRelativeLayout>
+            <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num7_button" style="@c1138f/numboard_number_button" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num8_button" style="@c1138f/numboard_number_button_center" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num9_button" style="@c1138f/numboard_number_button_right" />
+            </android.support.percent.PercentRelativeLayout>
+            <android.support.percent.PercentRelativeLayout style="@c1138f/numboard_number_row">
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_exit_button" app:tag="10" style="@c1138f/numboard_number_button" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_back_button" app:tag="10" app:visibility="gone" style="@c1138f/numboard_number_button" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_num0_button" style="@c1138f/numboard_number_button_center" />
+                <com.domobile.widget.NumBoardButton app:id="@c1134b/numboard_delete_button" app:tag="11" style="@c1138f/numboard_number_button_right" />
+            </android.support.percent.PercentRelativeLayout>
+            <android.support.percent.PercentRelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageButton app:id="@c1134b/numboard_sure_button" app:visibility="gone" app:layout_width="wrap_content" app:layout_centerHorizontal="true" app:layout_marginLeftPercent="34%" style="@c1138f/numboard_sure_button" />
+            </android.support.percent.PercentRelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.domobile.widget.FingerPrintStateView app:id="@c1134b/locker_board_fingerprint" app:tag="0x7f0700b0" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toLeftOf="@c1134b/locker_board_more" app:layout_alignTop="@c1134b/locker_board_more" />
+    <ImageView app:id="@c1134b/locker_board_more" app:tag="0x7f0700a6" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" />
+</com.domobile.eframe.ui.NotifyChangedRelativeLayout>

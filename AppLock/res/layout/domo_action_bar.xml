@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <View app:id="@id/domo_action_bar_titlebar_margin" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f080032" app:layout_height="UNKNOWN_DATA_0x7f080074" />
+    <LinearLayout app:id="@id/domo_action_bar_toolbar" app:layout_alignParentBottom="true" style="?attr/domoToolBarStyle" />
+    <FrameLayout app:id="@id/domo_action_bar_container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_above="@id/domo_action_bar_toolbar" app:layout_below="@id/domo_action_bar_titlebar_margin" />
+    <FrameLayout app:id="@id/domo_action_bar_topbar" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <LinearLayout app:id="@id/domo_action_bar_titlebar" style="?attr/domoActionBarStyle">
+            <FrameLayout app:id="@id/domo_action_bar_titlebar_left_layout" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageButton app:id="@id/domo_action_bar_titlebar_left" app:background="?attr/domoActionButtonBackground" app:layout_width="UNKNOWN_DATA_0x7f080073" app:layout_height="match_parent" app:src="@drawable/titlebar_back" />
+                <TextView app:textSize="@dimen/TextSizeSmallest" app:textStyle="bold" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/domo_action_bar_titlebar_left_badge" app:background="@drawable/text_badge" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f080075" app:layout_marginTop="@dimen/PaddingSizeSmallest" />
+            </FrameLayout>
+            <FrameLayout app:id="@id/domo_action_bar_titlebar_titleview" app:layout_width="UNKNOWN_DATA_0x7f080032" app:layout_height="match_parent" app:layout_weight="1.0">
+                <TextView app:id="@id/domo_action_bar_titlebar_title" style="?attr/domoActionBarTitleStyle" />
+            </FrameLayout>
+            <RelativeLayout app:id="@id/domo_action_bar_titlebar_right_layout" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageButton app:id="@id/domo_action_bar_titlebar_right" app:background="?attr/domoActionButtonBackground" app:layout_width="UNKNOWN_DATA_0x7f080073" app:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout app:id="@id/domo_action_bar_float_toolbar" style="?attr/domoToolBarFloatStyle" />
+</RelativeLayout>

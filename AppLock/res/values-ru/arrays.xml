@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Хранилище фотографий</item>
+        <item>Хранилище видео</item>
+        <item>Настройка фона, установка любимых фото</item>
+        <item>Профили, легкая смена блокировок</item>
+        <item>Автоматическая блокировка в указанное время</item>
+        <item>Автоматическая блокировка в указанном месте</item>
+        <item>Скрыть значок AppLock</item>
+        <item>Случайное расположение клавиш</item>
+        <item>Переключатель блокировок (WiFi, BT, данные 3G/4G...)</item>
+        <item>Еще больше функций станет доступно в ближайшее время...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>вс</item>
+        <item>пн</item>
+        <item>вт</item>
+        <item>ср</item>
+        <item>чт</item>
+        <item>пт</item>
+        <item>сб</item>
+    </array>
+</resources>

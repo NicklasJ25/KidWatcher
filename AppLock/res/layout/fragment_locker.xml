@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@c1134b/locker_swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.domobile.widget.OverscrollRecyclerView android:id="@c1134b/main_list" android:background="@color/white" android:fadingEdge="UNKNOWN_DATA_0x0" android:fillViewport="true" style="@style/domo_listview" />
+</android.support.v4.widget.SwipeRefreshLayout>

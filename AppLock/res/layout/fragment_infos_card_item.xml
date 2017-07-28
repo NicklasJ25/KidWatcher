@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/fragment_infos_card_item" app:background="@drawable/transparent" app:paddingLeft="@dimen/plugins_appitem_padding" app:paddingRight="@dimen/plugins_appitem_padding" app:paddingBottom="@dimen/plugins_appitem_padding" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:cardPreventCornerOverlap="true" style="@style/CardView">
+        <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:id="@c1134b/fragment_infos_card_item_event" app:background="?attr/selectableItemBackground" app:padding="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="44dp">
+            <TextView app:textSize="@dimen/TextSizeLarge" app:textStyle="bold" app:textColor="@color/accent_material_light" app:id="@c1134b/fragment_infos_card_item_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" />
+            <TextView app:textSize="@dimen/TextSizeSmaller" app:textColor="0x1060007" app:id="@c1134b/fragment_infos_card_item_message" app:paddingTop="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@c1137e/userinfo_premium" app:maxLines="3" app:layout_below="@c1134b/fragment_infos_card_item_title" />
+            <TextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c1134b/fragment_infos_card_item_more" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:text="@c1137e/more" app:layout_below="@c1134b/fragment_infos_card_item_message" app:layout_alignParentRight="true" style="@style/custom_dialog_button" />
+            <TextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c1134b/fragment_infos_card_item_details" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:text="@c1137e/details" app:layout_toLeftOf="@c1134b/fragment_infos_card_item_more" app:layout_below="@c1134b/fragment_infos_card_item_message" style="@style/custom_dialog_button" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

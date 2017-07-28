@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Fotokluis</item>
+        <item>Videokluis</item>
+        <item>Pas achtergrond aan, stelt uw favoriete foto in</item>
+        <item>Profielen, gemakkelijk om de sloten te veranderen</item>
+        <item>Automatische vergrendeling op gegeven moment</item>
+        <item>Automatische vergrendeling bij bepaalde locatie</item>
+        <item>Verberg AppLock icoon</item>
+        <item>Willekeurig toetsenbord</item>
+        <item>Vergrendel schakelaar (WiFi, BT, 3G/4G data ...)</item>
+        <item>Binnenkort meer functies ...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>Z</item>
+        <item>M</item>
+        <item>D</item>
+        <item>W</item>
+        <item>D</item>
+        <item>V</item>
+        <item>Z</item>
+    </array>
+</resources>

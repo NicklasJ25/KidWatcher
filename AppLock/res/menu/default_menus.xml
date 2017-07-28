@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toolbar_settings" android:id="@id/default_menu_setting" android:orderInCategory="1" android:title="@string/domo_setting" />
+    <item android:icon="@drawable/toolbar_help" android:id="@id/default_menu_help" android:orderInCategory="2" android:title="@string/domo_help" />
+    <item android:icon="@drawable/toolbar_rating" android:id="@id/default_menu_rate" android:orderInCategory="3" android:title="@string/domo_rate" />
+    <item android:icon="@drawable/toolbar_share" android:id="@id/default_menu_share" android:orderInCategory="4" android:title="@string/domo_share" />
+</menu>

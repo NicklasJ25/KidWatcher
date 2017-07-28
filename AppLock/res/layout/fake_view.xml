@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@c1134b/fake_view_toplayout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@c1134b/verify_fake_logo" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0800e9" android:layout_height="UNKNOWN_DATA_0x7f0800e8" android:layout_centerInParent="true">
+        <com.domobile.eframe.ui.FingerLaserView android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:id="@c1134b/fake_view_forground" android:background="@c1133a/scaning_fingerprint" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:background="@c1133a/scanning_frame" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/fake_view_teach" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/finger_touch" />
+    </FrameLayout>
+</RelativeLayout>

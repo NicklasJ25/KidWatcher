@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.domobile.widget.OverscrollRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@c1134b/security_list" android:background="@color/default_page_bgcolor" android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingRight="@dimen/PaddingSizeSmaller" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:fillViewport="true" style="@style/domo_listview" />

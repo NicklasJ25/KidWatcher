@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Bóveda de fotos</item>
+        <item>Bóveda de video</item>
+        <item>Personalizar fondo, seleccionar foto favorita</item>
+        <item>Perfiles, modificar bloqueos con facilidad</item>
+        <item>Bloqueo automático después de cierto tiempo</item>
+        <item>Bloqueo automático en cierta posición</item>
+        <item>Ocultar ícono de AppLock</item>
+        <item>Teclado Aleatorio</item>
+        <item>Interruptor de bloqueo (WiFi, BT, Datos 3G/4G...)</item>
+        <item>Próximamente, más funciones</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>D</item>
+        <item>L</item>
+        <item>M</item>
+        <item>X</item>
+        <item>J</item>
+        <item>V</item>
+        <item>S</item>
+    </array>
+</resources>

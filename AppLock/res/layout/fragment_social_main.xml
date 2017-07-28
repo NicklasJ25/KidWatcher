@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@c1134b/contentView" app:background="@color/bg_white_std" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ScrollView app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/bg_white_holo" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <FrameLayout app:id="@c1134b/vgTwitterLayer" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView app:scrollbarStyle="outsideOverlay" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/rcvTwitterList" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:overScrollMode="never" />
+            </FrameLayout>
+            <View app:background="@color/divider_gray_std" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f08016f" app:layout_marginLeft="@dimen/PaddingSizeLarge" app:layout_marginRight="@dimen/PaddingSizeLarge" />
+            <FrameLayout app:id="@c1134b/vgFacebookLayer" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView app:scrollbarStyle="outsideOverlay" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/rcvFacebookList" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:overScrollMode="never" />
+            </FrameLayout>
+            <View app:background="@color/divider_gray_std" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f08016f" app:layout_marginLeft="@dimen/PaddingSizeLarge" app:layout_marginRight="@dimen/PaddingSizeLarge" />
+            <FrameLayout app:id="@c1134b/vgGoogleLayer" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView app:scrollbarStyle="outsideOverlay" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/rcvGoogleList" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:overScrollMode="never" />
+            </FrameLayout>
+            <View app:background="@color/divider_gray_std" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f08016f" app:layout_marginLeft="@dimen/PaddingSizeLarge" app:layout_marginRight="@dimen/PaddingSizeLarge" />
+            <FrameLayout app:id="@c1134b/vgLinkedinLayer" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView app:scrollbarStyle="outsideOverlay" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/rcvLinkedinList" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:overScrollMode="never" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

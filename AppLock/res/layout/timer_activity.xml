@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/settings_page_bgcolor" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView app:id="@c1134b/timer_list" app:paddingBottom="80dp" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <ImageView app:id="0x1020004" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@c1133a/empty_placeholder" app:scaleType="centerInside" />
+    <com.getbase.floatingactionbutton.FloatingActionButton app:id="@c1134b/timer_add" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/PaddingSizeMiddle" app:layout_marginBottom="@dimen/PaddingSizeMiddle" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:fab_icon="@c1133a/ic_fab_plus" app:fab_size="0" />
+</RelativeLayout>

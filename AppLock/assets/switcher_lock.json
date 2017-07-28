@@ -1,0 +1,26 @@
+[
+    {
+        "name": "@string/wifi",
+        "icon": "@drawable/icon_switch_wifi",
+        "desc": "@string/",
+        "prefKey": "key_locked_wifi_state"
+    },
+    {
+        "name": "@string/bluetooth",
+        "icon": "@drawable/icon_switch_bluetooth",
+        "desc": "@string/",
+        "prefKey": "key_locked_bluetooth_state"
+    },
+    {
+        "name": "@string/mobile_network",
+        "icon": "@drawable/icon_switch_cell",
+        "desc": "@string/",
+        "prefKey": "key_locked_2g3g_state"
+    },
+    {
+        "name": "@string/auto_sync",
+        "icon": "@drawable/icon_switch_sync",
+        "desc": "@string/",
+        "prefKey": "key_locked_autosync_state"
+    }
+]

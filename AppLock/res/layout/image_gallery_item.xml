@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@c1134b/image_gallery_root" android:background="@c1133a/vault_image_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/image_gallery_item_space" android:layout_marginRight="@dimen/image_gallery_item_space">
+        <com.domobile.frame.http.image.CacheImageView android:id="@c1134b/thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@c1134b/image_gallery_play_video" android:background="@color/transparent_black44" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@c1133a/vault_videos_play" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/image_gallery_item_state" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08011a" android:layout_height="UNKNOWN_DATA_0x7f08011a" android:layout_margin="@dimen/PaddingSizeOne" android:src="@c1133a/vault_images_check_mark" android:scaleType="centerInside" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/image_gallery_item_progress" android:padding="@dimen/PaddingSizeSmallest" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08011a" android:layout_height="UNKNOWN_DATA_0x7f08011a" android:layout_margin="@dimen/PaddingSizeOne" style="@*style/Widget.ProgressBar.Small" />
+    </FrameLayout>
+</RelativeLayout>

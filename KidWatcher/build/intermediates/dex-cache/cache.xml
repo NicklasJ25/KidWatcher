@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIST\Documents\GitReposetories\KidWatcher\KidWatcher\app\libs\mail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e880497affe331a8fae02c84c701fddde8954f18">
+        <dex dex="C:\Users\NIST\Documents\GitReposetories\KidWatcher\KidWatcher\app\build\intermediates\pre-dexed\debug\mail_b1a0380e9da453a88b2955e80ec60853c7ae48db.jar" />
+    </item>
+
+</items>

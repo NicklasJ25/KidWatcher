@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:id="@c1134b/locker_header_container" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:background="@color/white" app:paddingLeft="@dimen/locker_header_card_space" app:paddingTop="@dimen/PaddingSizeSmallest" app:paddingRight="@dimen/locker_header_card_space" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <com.domobile.widget.LockerHeaderItemView app:textSize="@dimen/TextSizeSmall" app:id="@c1134b/locker_media_safe" app:src="@c1133a/icon_vault_white" app:title="@c1137e/lock_media_safe" app:cardBackgroundColor="#689f38" style="@c1138f/locker_header_cardview" />
+            <com.domobile.widget.LockerHeaderItemView app:textSize="@dimen/TextSizeSmall" app:id="@c1134b/locker_backroom" app:src="@c1133a/icon_chamber_white" app:title="@c1137e/secret_chamber" app:cardBackgroundColor="#ed3b3b" style="@c1138f/locker_header_cardview" />
+        </LinearLayout>
+        <LinearLayout app:background="@color/white" app:paddingLeft="@dimen/locker_header_card_space" app:paddingRight="@dimen/locker_header_card_space" app:paddingBottom="@dimen/locker_header_card_space" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <com.domobile.widget.LockerHeaderItemView app:id="@c1134b/locker_recommend" app:visibility="gone" app:cardPreventCornerOverlap="false" app:contentPaddingLeft="0dp" app:contentPaddingRight="0dp" app:contentPaddingTop="0dp" app:contentPaddingBottom="0dp" style="@c1138f/locker_header_cardview">
+                <com.domobile.widget.RecommendAdsView app:id="@c1134b/imvRecommend" app:layout_width="match_parent" app:layout_height="match_parent" app:contentDescription="0x0" />
+            </com.domobile.widget.LockerHeaderItemView>
+            <com.domobile.widget.LockerHeaderItemView app:textSize="@dimen/TextSizeSmall" app:id="@c1134b/locker_header_func" app:visibility="visible" app:cardBackgroundColor="#fb582f" style="@c1138f/locker_header_cardview" />
+            <com.domobile.widget.LockerHeaderItemView app:textSize="@dimen/TextSizeSmall" app:id="@c1134b/locker_header_more" app:src="@c1133a/toolbar_more" app:title="@c1137e/more" app:cardBackgroundColor="#536dfe" style="@c1138f/locker_header_cardview" />
+        </LinearLayout>
+        <FrameLayout app:id="@id/list_item_group_margin" app:background="@drawable/abs__ab_solid_shadow_holo" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080029" />
+    </LinearLayout> />

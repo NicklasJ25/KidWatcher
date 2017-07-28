@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="0x1020002" android:background="@c1133a/step_window_power_save_mode_bgcolor" android:padding="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/TextSizeLarge" android:textColor="@color/white" android:id="0x102000b" android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingRight="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="120dp" android:layout_marginBottom="@dimen/PaddingSizeXLarge" android:text="@c1137e/enable_accessibility_service_guide" />
+        <FrameLayout android:background="@color/white" android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingTop="@dimen/PaddingSizeSmaller" android:paddingRight="?unknown_attr_ref: 1010063" android:paddingBottom="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@c1133a/gallery_thumb_border" android:minHeight="@dimen/preference_layout_height">
+            <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/PaddingSizeSmaller">
+                <ImageView android:id="0x1020006" android:padding="@dimen/PaddingSizeSmallest" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginRight="@dimen/PaddingSizeSmall" android:src="@c1133a/icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/primary_text_light" android:ellipsize="marquee" android:id="0x1020016" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="0x1020006" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/secondary_text_light" android:id="0x1020010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/off" android:lines="1" android:layout_below="0x1020016" android:layout_alignLeft="0x1020016" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

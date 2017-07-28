@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/bg_white_holo" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:id="@c1134b/vgSubsMode" android:background="@c1133a/check_billing_subs_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeMiddle" android:layout_marginTop="@dimen/PaddingSizeLarge" android:layout_marginRight="@dimen/PaddingSizeMiddle">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/PaddingSizeXLarge" android:src="@c1133a/icon_billing_primium" android:contentDescription="0x0" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeXLarge" android:layout_marginRight="@dimen/PaddingSizeLarge" android:layout_marginBottom="@dimen/PaddingSizeXLarge">
+            <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/primary_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/advance_user" android:maxLines="1" />
+            <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/secondary_textcolor" android:id="@c1134b/txvSubsDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:text="@c1137e/general_user_info" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeMiddle">
+                <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="#ffba00" android:id="@c1134b/txvSubsPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/secondary_textcolor" android:id="@c1134b/txvCancelSubs" android:background="@c1133a/vault_dialog_button1" android:padding="@dimen/PaddingSizeSmaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:text="@c1137e/cancel_subscription" android:textAllCaps="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@c1134b/vgAdsMode" android:background="@c1133a/check_billing_ads_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeMiddle" android:layout_marginTop="@dimen/PaddingSizeLarge" android:layout_marginRight="@dimen/PaddingSizeMiddle">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/PaddingSizeXLarge" android:src="@c1133a/icon_billing_ads" android:contentDescription="0x0" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeXLarge" android:layout_marginRight="@dimen/PaddingSizeLarge" android:layout_marginBottom="@dimen/PaddingSizeXLarge">
+            <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/primary_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/billing_ad_mode" android:maxLines="1" />
+            <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/secondary_textcolor" android:id="@c1134b/txvAdsDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:text="@c1137e/billing_ad_mode_summary" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:background="@color/bg_white_std" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/PaddingSizeLarge"
+        <FrameLayout android:background="@color/bg_white_holo" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@c1134b/vgFreeMode" android:background="@c1133a/check_billing_free_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeMiddle" android:layout_marginRight="@dimen/PaddingSizeMiddle" android:layout_marginBottom="@dimen/PaddingSizeLarge">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/PaddingSizeXLarge" android:src="@c1133a/icon_billing_basic" android:contentDescription="0x0" />
+                <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/PaddingSizeLarge">
+                    <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/primary_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/billing_free_mode" android:maxLines="1" />
+                    <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/secondary_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:text="@c1137e/userinfo_freemode" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@c1134b/vgPremiumList" android:background="@color/bg_white_holo" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:background="@color/bg_white_std" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080029" />
+            <View android:background="@color/divider_gray_std" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f08016f" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@c1134b/vgPremiumTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeLarge">
+                <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/text_green_std" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/why_get_premium" android:maxLines="1" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmallest" android:src="@c1133a/icon_drop_down" android:contentDescription="0x0" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView android:id="@c1134b/rcvPremiumList" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/PaddingSizeSmaller" android:overScrollMode="never" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

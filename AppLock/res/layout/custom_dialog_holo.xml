@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="match_parent">
+    <View app:id="@id/custom_dialog_panelLayout" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <FrameLayout app:id="@id/custom_dialog_animView" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.v7.widget.CardView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/custom_dialog_parentPanel" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/PaddingSizeLarge" app:layout_marginTop="@dimen/PaddingSizeXXLarge" app:layout_marginRight="@dimen/PaddingSizeLarge" app:layout_marginBottom="@dimen/PaddingSizeXXLarge" style="@style/CardView">
+            <LinearLayout app:orientation="vertical" app:paddingTop="8dp" app:paddingBottom="8dp" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="vertical" app:id="@id/custom_dialog_topPanel" app:paddingTop="16dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="24dp" app:layout_marginRight="24dp"
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageView app:id="@id/custom_dialog_icon" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/PaddingSizeSmallest" app:scaleType="center" app:adjustViewBounds="true" app:maxWidth="28dp" app:maxHeight="28dp" />
+                        <TextView app:textColor="@color/black" app:ellipsize="end" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:autoLink="UNKNOWN_DATA_0x0" app:id="@id/custom_dialog_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxLines="2" app:shadowColor="@color/white" app:shadowDy="1.0" app:shadowRadius="1.0" style="?unknown_attr_ref: 1010040" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:id="@id/custom_dialog_middlePanel" app:paddingTop="16dp" app:paddingBottom="8dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080032" app:layout_weight="1.0">
+                    <ScrollView app:id="@id/custom_dialog_scrollView" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="24dp" app:layout_marginRight="24dp">
+                        <TextView app:textSize="@dimen/abc_text_size_subhead_material" app:textColor="@color/custom_dialog_message_textcolor_material_light" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:autoLink="UNKNOWN_DATA_0x0" app:id="@id/custom_dialog_message" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                    </ScrollView>
+                    <ListView app:id="@id/custom_dialog_list" app:background="@drawable/transparent" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:cacheColorHint="0x106000d" app:divider="@color/custom_dialog_listview_divider_bgcolor" app:dividerHeight="@dimen/PaddingSizeOnePixel" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:id="@id/custom_dialog_bottomPanel" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:paddingRight="16dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:id="@id/custom_dialog_cancel" app:visibility="gone" style="@style/custom_dialog_button" />
+                        <TextView app:id="@id/custom_dialog_mid_button" app:visibility="gone" style="@style/custom_dialog_button" />
+                        <TextView app:id="@id/custom_dialog_ok" app:visibility="gone" style="@style/custom_dialog_button" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/tab_actionbar_layout" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar app:id="@id/action_toolbar" app:background="@color/material_blue_grey_800" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004f" app:minHeight="?attr/actionBarSize" app:popupTheme="?attr/actionBarPopupTheme" app:theme="?attr/actionBarTheme" />
+    <com.domobile.widget.ViewPagerTabs app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/view_pager_tabs" app:background="@color/material_blue_grey_800" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080173" app:textAllCaps="true" style="@style/DialtactsActionBarTabTextStyle" />
+    <View app:id="@id/domo_activity_shadow" app:background="@drawable/shadow_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x501" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>फोटो तिजोरी</item>
+        <item>वीडियो तिजोरी</item>
+        <item>पृष्ठभूमि को अनुकूलित करें, अपने पसंदीदा फोटो सेट करें</item>
+        <item>ताले बदलने की प्रोफाइल, आसान</item>
+        <item>निश्चित समय पर स्वत: लॉक</item>
+        <item>किसी स्थान पर स्वत: लॉक</item>
+        <item>AppLock आइकन छुपाएं</item>
+        <item>रैंडम कीबोर्ड</item>
+        <item>बंद स्विच (वाईफाई, बीटी, डाटा 3जी/4जी ...)</item>
+        <item>जल्द ही आ रही है और अधिक सुविधाएँ ...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>र</item>
+        <item>सो</item>
+        <item>मं</item>
+        <item>बु</item>
+        <item>गु</item>
+        <item>शु</item>
+        <item>श</item>
+    </array>
+</resources>

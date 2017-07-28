@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@c1134b/menu_action_delete" app:title="@string/delete" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c1134b/menu_action_save" app:title="@c1137e/intruder_picture_save" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

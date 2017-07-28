@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bg_white_holo" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@c1134b/vgItemLayer" android:background="@c1133a/vault_image_border" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.domobile.frame.http.image.CacheImageView android:id="@c1134b/imvImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="0x0" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:layout_marginBottom="@dimen/PaddingSizeSmaller" android:src="@c1133a/pic_logo_watermark" android:contentDescription="0x0" />
+    </FrameLayout>
+</LinearLayout>

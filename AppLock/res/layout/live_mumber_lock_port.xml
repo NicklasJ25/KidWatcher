@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.domobile.eframe.ui.NotifyChangedRelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/numboard_whole_layout" app:tag="0x7f0700a8" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.domobile.applock.livelock.view.LiveBgView app:id="@c1134b/liveBgView" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <com.domobile.applock.livelock.view.IconDecorView app:id="@c1134b/iconDecorView" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <FrameLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:tag="0x7f0700a4" app:layout_height="wrap_content" style="@c1138f/style_password_edittext_bgview">
+                <com.domobile.applock.livelock.view.PwdBgView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/pwdBgView" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                <com.domobile.applock.livelock.view.PasswordView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/passwordView" app:layout_width="match_parent" app:layout_height="wrap_content" />
+            </FrameLayout>
+            <com.domobile.applock.livelock.view.LiveNumberView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/liveNumberView" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/PaddingSizeMiddle" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.domobile.widget.FingerPrintStateView app:id="@c1134b/locker_board_fingerprint" app:tag="0x7f0700b0" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toLeftOf="@c1134b/locker_board_more" app:layout_alignTop="@c1134b/locker_board_more" />
+    <ImageView app:id="@c1134b/locker_board_more" app:tag="0x7f0700a6" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" />
+</com.domobile.eframe.ui.NotifyChangedRelativeLayout>

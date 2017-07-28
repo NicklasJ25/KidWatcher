@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="0x1020006" android:layout_width="UNKNOWN_DATA_0x1050000" android:layout_height="UNKNOWN_DATA_0x1050000" android:src="@c1133a/icon" />
+    <ImageView android:id="0x1020007" android:background="@drawable/actionbar_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:src="@drawable/toolbar_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ProgressBar android:id="0x102000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080028" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginTop="@dimen/PaddingSizeSmallest" android:layout_marginBottom="@dimen/PaddingSizeSmallest" android:layout_toLeftOf="0x1020007" android:layout_toRightOf="0x1020006" style="@c1138f/notification_progressbar" />
+    <TextView android:textColor="0x106000b" android:id="@c1134b/progress_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="0x102000d" android:layout_alignLeft="0x102000d" />
+    <TextView android:textColor="0x106000b" android:id="@c1134b/progress_wating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="0x102000d" android:layout_alignRight="0x102000d" />
+</RelativeLayout>

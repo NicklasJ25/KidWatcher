@@ -1,0 +1,40 @@
+{
+    "apps": [
+        {
+            "values-sv": "Avancerat Skydd",
+            "values-ru": "Дополнительная защита",
+            "values-pt-rBR": "Proteção Avançada",
+            "values-zh-rTW": "高級保護",
+            "values-fr": "Protection avancée",
+            "values-iw": "הגנה מתקדמת",
+            "values-pt": "Proteção Avançada",
+            "values-zh-rHK": "高級保護",
+            "values-es-rES": "Protección Avanzada",
+            "values-zh-rCN": "高级保护",
+            "values-it": "Protezione Avanzata",
+            "values-es": "Protección avanzada",
+            "values-nl": "Geavanceerde bescherming",
+            "values-pl": "Zaawansowana ochrona",
+            "values-vi": "Bảo vệ nâng cao",
+            "values-th": "การปกป้องขั้นสูง",
+            "values-ar": "حماية متقدمة",
+            "values-hi": "उन्नत संरक्षण",
+            "values": "Advanced Protection",
+            "values-ko": "고급 보호",
+            "values-ja": "高度保護",
+            "values-de": "Erweiterter Schutz",
+            "values-tr": "Gelişmiş Koruma",
+            "values-nb": "Avansert beskyttelse",
+            "desc": "",
+            "icon": "http://storage.googleapis.com/domobilecom/apps/icons/icon.png",
+            "package": "com.domobile.applockwatcher",
+            "version": "20140725",
+            "applock_version": "20140506",
+            "can_open": 0,
+            "price": "Free",
+            "rate": 4.8,
+            "developer": "DoMobile Lab"
+        }
+    ],
+    "top_cate": []
+}

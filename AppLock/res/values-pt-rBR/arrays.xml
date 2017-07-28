@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Segurança de foto</item>
+        <item>Segurança de vídeo</item>
+        <item>Personalize o fundo. Coloque sua foto favorita</item>
+        <item>Perfis, fácil de alternar os bloqueios</item>
+        <item>Bloqueio automático em determinado momento</item>
+        <item>Bloqueio automático em determinado local</item>
+        <item>Ocultar ícone AppLock</item>
+        <item>Teclado aleatório</item>
+        <item>Alternância de bloqueio (dados WiFi, BT, 3G/4G...)</item>
+        <item>Mais recursos em breve...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>D</item>
+        <item>S</item>
+        <item>T</item>
+        <item>Q</item>
+        <item>Q</item>
+        <item>S</item>
+        <item>S</item>
+    </array>
+</resources>

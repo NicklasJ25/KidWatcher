@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_white_holo" />
+            <stroke android:width="2dp" android:color="#92a17c" />
+            <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp" />
+            <corners android:radius="@dimen/round_radius_std" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:src="@c1133a/icon_check_billing_select3" />
+    </item>
+</layer-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/CardView">
+    <LinearLayout app:orientation="horizontal" app:background="?attr/selectableItemBackgroundBorderless" app:padding="@dimen/PaddingSizeLarge" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.domobile.frame.http.image.CacheImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c1134b/imvIcon" app:layout_width="UNKNOWN_DATA_0x7f080114" app:layout_height="UNKNOWN_DATA_0x7f080114" app:src="@c1133a/icon_notification_lock_large" app:contentDescription="0x0" />
+        <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/PaddingSizeLarge" app:layout_marginRight="@dimen/PaddingSizeSmaller" app:layout_weight="1.0">
+            <TextView app:textSize="@dimen/TextSizeMiddle" app:textColor="@color/primary_textcolor" app:id="@c1134b/txvTitle" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            <TextView app:textSize="@dimen/TextSizeSmallest" app:textColor="@color/secondary_textcolor" app:ellipsize="end" app:id="@c1134b/txvContent" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:maxLines="2" />
+        </LinearLayout>
+        <TextView app:textSize="@dimen/TextSizeSmallest" app:textColor="@color/secondary_textcolor" app:id="@c1134b/txvPostTime" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@c1133a/toolbar_image" app:id="@c1134b/menu_theme_picker_unlock_background" app:title="@c1137e/unlock_background" app:showAsAction="always" />
+</menu>

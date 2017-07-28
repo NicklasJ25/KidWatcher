@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Coffre à photos</item>
+        <item>Coffre à vidéos</item>
+        <item>Personnalisez l&apos;arrière-plan, choisissez votre photo préférée</item>
+        <item>Profils, verrouillages faciles à changer</item>
+        <item>Verrouillage automatique au moment donné</item>
+        <item>Verrouillage automatique à l&apos;emplacement donné</item>
+        <item>Masquer l&apos;icône AppLock</item>
+        <item>Clavier aléatoire</item>
+        <item>Bouton de verrouillage (WiFi, BT, données 3G/4G...)</item>
+        <item>Bientôt de nouvelles fonctionnalités...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>D</item>
+        <item>L</item>
+        <item>M</item>
+        <item>M</item>
+        <item>J</item>
+        <item>V</item>
+        <item>S</item>
+    </array>
+</resources>

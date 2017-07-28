@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.SwitchCompat xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="0x1020001" app:background="0x0" app:focusable="false" app:focusableInTouchMode="false" app:clickable="false" app:duplicateParentState="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:showText="false" />

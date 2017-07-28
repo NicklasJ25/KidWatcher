@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="@dimen/pick_lockbg_padding" android:paddingBottom="@dimen/pick_lockbg_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@c1134b/pick_lock_background_item_imgcontainer" android:background="@c1133a/bg_photo" android:layout_width="UNKNOWN_DATA_0x7f080032" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_centerInParent="true">
+        <com.domobile.frame.http.image.CacheImageView android:id="@c1134b/pick_lock_background_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@c1133a/ic_fab_plus" android:scaleType="center" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/pick_lock_background_item_checked" android:background="@c1133a/icon_gou" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08011a" android:layout_height="UNKNOWN_DATA_0x7f08011a" />
+        <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/pick_lock_background_item_delete" android:background="@c1133a/delete_button_bg" android:layout_width="UNKNOWN_DATA_0x7f08011a" android:layout_height="UNKNOWN_DATA_0x7f08011a" />
+    </FrameLayout>
+</RelativeLayout>

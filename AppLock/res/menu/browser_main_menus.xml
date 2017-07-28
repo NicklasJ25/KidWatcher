@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@c1133a/icon_bookmark_add" app:enabled="false" app:id="@c1134b/menu_action_bookmark" app:orderInCategory="100" app:title="@c1137e/bookmark_list_title" app:showAsAction="always" />
+    <item app:id="@c1134b/menu_action_forward" app:orderInCategory="101" app:title="@c1137e/browser_action_forward" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c1134b/menu_action_refresh" app:orderInCategory="102" app:title="@string/refresh" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c1134b/menu_action_bookmarks" app:orderInCategory="103" app:title="@c1137e/bookmark_list_title" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@c1134b/menu_action_downloads" app:orderInCategory="104" app:title="@c1137e/download_list_title" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

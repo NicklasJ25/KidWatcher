@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guide_secure_email_edittext_height">42.0dip</dimen>
+    <item type="dimen" name="guide_secure_email_textsize">@dimen/TextSizeLarge</item>
+    <item type="dimen" name="guide_secure_email_title_textsize">@dimen/TextSizeXLarge</item>
+</resources>

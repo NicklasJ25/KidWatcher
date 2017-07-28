@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@c1133a/toolbar_profile1" android:id="@c1134b/main_toolbar_menu_profile" android:orderInCategory="0" android:title="@c1137e/scenes_mode" />
+    <item android:icon="@c1133a/toolbar_profile_add" android:id="@c1134b/main_toolbar_menu_new_profile" android:orderInCategory="1" android:title="@c1137e/save_as_new_profile" />
+    <item android:icon="@c1133a/toolbar_time" android:id="@c1134b/main_toolbar_menu_timer" android:orderInCategory="2" android:title="@c1137e/timer_lock" />
+    <item android:icon="@c1133a/toolbar_location" android:id="@c1134b/main_toolbar_menu_location" android:orderInCategory="3" android:title="@c1137e/location_lock" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@c1134b/root" android:background="@color/bg_white_holo" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/vlgContainer" android:background="@c1133a/vault_image_border" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmallest">
+        <ImageView android:id="@c1134b/imvImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeMiddle" android:layout_marginTop="@dimen/PaddingSizeMiddle">
+            <include android:id="@c1134b/txvTime" layout="@c1135c/layout_text_watermark" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:layout_marginBottom="@dimen/PaddingSizeSmaller" android:src="@c1133a/pic_logo_watermark" android:contentDescription="0x0" />
+    </FrameLayout>
+</FrameLayout>

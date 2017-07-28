@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>사진 금고</item>
+        <item>비디오 금고</item>
+        <item>사용자 지정 잠금 해제 배경. 가장 좋아하는 사진을 선택하세요</item>
+        <item>장면 모드. 어플리케이션 그룹 스피드 잠금</item>
+        <item>시간에 따라 자동으로 어플리케이션 잠금</item>
+        <item>위치에 따라 자동으로 어플리케이션 잠금</item>
+        <item>어플리케이션 잠금 아이콘 잠추기</item>
+        <item>임의 배열 키패드</item>
+        <item>스위치 잠금 (와이파이, 블루투스, 모바일 데이터베이스, 자동 동기화)</item>
+        <item>더 많은 기능들 예정…</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/default_page_bgcolor" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.domobile.widget.PageIndicator app:id="@c1134b/page_indicator" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f080034" app:layout_marginTop="@dimen/PaddingSizeLarge" app:layout_marginBottom="@dimen/TextSizeXLarge" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+    <android.support.v4.view.ViewPager app:id="@c1134b/pick_lock_background_pages" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_above="@c1134b/page_indicator" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="match_parent">
+        <include app:layout_width="match_parent" app:layout_height="wrap_content" layout="@c1135c/domo_empty_view" />
+    </LinearLayout>
+    <FrameLayout app:id="@id/adview_layout" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f08007b" app:layout_alignParentBottom="true" style="@style/ads_layout" />
+</RelativeLayout>

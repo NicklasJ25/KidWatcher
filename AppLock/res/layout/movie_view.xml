@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.domobile.eframe.ui.MyVideoView android:id="@c1134b/surface_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@c1134b/movie_view_control1" android:background="@color/white" android:paddingLeft="@dimen/PaddingSizeSmall" android:paddingRight="@dimen/PaddingSizeSmall" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginBottom="@dimen/action_toolbar_height_without_shadow" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/black" android:id="@c1134b/movie_view_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <SeekBar android:id="@c1134b/movie_view_progress" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeSmallest" android:layout_marginRight="@dimen/PaddingSizeSmallest" android:max="1000" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/black" android:id="@c1134b/movie_view_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@c1134b/movie_view_control2" android:background="@color/transparent_black44" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_above="@c1134b/movie_view_control1">
+        <ImageView android:id="@c1134b/movie_view_prev" android:src="@c1133a/movie_view_prev" style="@c1138f/movie_view_button_play" />
+        <ImageView android:id="@c1134b/movie_view_backward" android:src="@c1133a/movie_view_rewind" style="@c1138f/movie_view_button_play" />
+        <ImageView android:id="@c1134b/movie_view_play" android:src="@c1133a/movie_view_play" style="@c1138f/movie_view_button_play" />
+        <ImageView android:id="@c1134b/movie_view_forward" android:src="@c1133a/movie_view_forward" style="@c1138f/movie_view_button_play" />
+        <ImageView android:id="@c1134b/movie_view_next" android:src="@c1133a/movie_view_next" style="@c1138f/movie_view_button_play" />
+    </LinearLayout>
+</RelativeLayout>

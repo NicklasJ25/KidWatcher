@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@c1133a/vault_dialog_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:padding="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="0x1020006" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:src="@c1133a/toolbar_trash" android:tint="@color/primary_textcolor" android:layout_alignParentLeft="true" android:layout_marginStart="11dp" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/TextSizeLarge" android:textColor="@color/primary_textcolor" android:id="0x1020016" android:paddingLeft="@dimen/PaddingSizeXXLarge" android:paddingRight="@dimen/PaddingSizeXXLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_below="0x1020006" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+        <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="@color/secondary_textcolor" android:id="0x102000b" android:paddingLeft="@dimen/PaddingSizeXXLarge" android:paddingTop="@dimen/PaddingSizeMiddle" android:paddingRight="@dimen/PaddingSizeXXLarge" android:paddingBottom="@dimen/PaddingSizeXLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/confirm_delete_message" android:layout_below="0x1020016" android:layout_centerHorizontal="true" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="0x102000b">
+            <TextView android:textColor="@color/secondary_textcolor" android:id="0x1020019" android:background="@c1133a/vault_dialog_button1" android:text="0x1040000" style="@c1138f/vault_dialog_button" />
+            <View android:layout_width="UNKNOWN_DATA_0x7f080029" android:layout_height="UNKNOWN_DATA_0x1" />
+            <TextView android:id="0x102001a" android:background="@c1133a/vault_dialog_button2" android:text="@string/delete" style="@c1138f/vault_dialog_button" />
+            <TextView android:id="0x102001b" android:background="@c1133a/vault_dialog_button3" android:visibility="gone" android:text="@c1137e/revert" style="@c1138f/vault_dialog_button" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

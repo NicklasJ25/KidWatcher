@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@c1133a/num_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ViewStub app:id="@c1134b/guide_numboard" app:layout="@c1135c/best_numboard" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <ViewStub app:id="@c1134b/guide_patternboard" app:layout="@c1135c/best_pattern_board" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <RelativeLayout app:id="@c1134b/guide_steps" style="@c1138f/guide_step_parent">
+        <TextView app:id="@c1134b/guide_step_one" app:text="1" app:layout_centerVertical="true" style="@c1138f/guide_step_text" />
+        <TextView app:id="@c1134b/guide_step_two" app:text="2" app:layout_centerInParent="true" style="@c1138f/guide_step_text" />
+        <TextView app:id="@c1134b/guide_step_three" app:text="3" app:layout_alignParentRight="true" app:layout_centerVertical="true" style="@c1138f/guide_step_text" />
+        <com.domobile.widget.GuideStepLineView app:id="@c1134b/guide_step_line1" app:layout_toLeftOf="@c1134b/guide_step_two" app:layout_toRightOf="@c1134b/guide_step_one" app:layout_centerVertical="true" style="@c1138f/guide_step_line" />
+        <com.domobile.widget.GuideStepLineView app:id="@c1134b/guide_step_line2" app:layout_toLeftOf="@c1134b/guide_step_three" app:layout_toRightOf="@c1134b/guide_step_two" app:layout_centerVertical="true" style="@c1138f/guide_step_line" />
+    </RelativeLayout>
+    <android.support.percent.PercentRelativeLayout app:id="@c1134b/guide_security_layout" style="@c1138f/guide_secure_parent">
+        <FrameLayout app:id="@c1134b/guide_secure_appicon" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_heightPercent="40%"
+            <FrameLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:background="@c1133a/num_appicon_slot" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <ImageView app:src="@c1133a/icon" style="@c1138f/style_appicon_imageview" />
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout app:layout_marginTopPercent="30%" style="@c1138f/guide_secure_email_parent">
+            <TextView app:textSize="@dimen/guide_secure_email_title_textsize" app:paddingLeft="@dimen/PaddingSizeSmall" app:text="@c1137e/secure_email" style="@c1138f/guide_comment_text" />
+            <EditText app:id="@c1134b/guide_security_email_edittext" style="@c1138f/guide_secure_email_edittext" />
+            <TextView app:textColor="@color/guide_comment_textcolor" app:layout_marginTop="@dimen/PaddingSizeZero" app:text="@c1137e/secure_email_guide_description" style="@c1138f/guide_comment_text" />
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeLarge">
+                <TextView app:id="@c1134b/guide_save_button" style="@c1138f/guide_save_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.percent.PercentRelativeLayout>
+</FrameLayout>

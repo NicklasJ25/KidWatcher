@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/numboard_whole_layout" app:tag="0x7f0700a8" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.domobile.applock.livelock.view.LiveBgView app:id="@c1134b/liveBgView" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <RelativeLayout app:id="@c1134b/pattern_board_topbg" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.percent.PercentRelativeLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="match_parent">
+            <FrameLayout app:id="@c1134b/numboard_appinfo" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_heightPercent="40%">
+                <com.domobile.applock.livelock.view.IconDecorView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/iconDecorView" app:layout_width="match_parent" app:layout_height="match_parent" />
+            </FrameLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_heightPercent="60%" app:layout_marginTopPercent="40%">
+                <com.domobile.applock.livelock.view.LivePatternView app:id="@c1134b/pattern_board_patternview" app:tag="0x7f0700ac" app:layout_width="match_parent" app:layout_height="match_parent" />
+            </LinearLayout>
+        </android.support.percent.PercentRelativeLayout>
+    </RelativeLayout>
+    <com.domobile.widget.FingerPrintStateView app:id="@c1134b/locker_board_fingerprint" app:tag="0x7f0700b0" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toLeftOf="@c1134b/locker_board_more" app:layout_alignTop="@c1134b/locker_board_more" />
+    <ImageView app:id="@c1134b/locker_board_more" app:tag="0x7f0700a6" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" />
+</RelativeLayout>

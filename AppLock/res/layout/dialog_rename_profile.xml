@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/alert_dialog_margin_left" android:paddingRight="@dimen/alert_dialog_margin_left" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/textfield_focused_holo_light" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/TextSizeLarge" android:textColor="?attr/textColorDefault" android:id="@c1134b/dialog_rename_profine_text" android:background="@drawable/transparent" android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingRight="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@c1137e/label" android:singleLine="true" android:maxLength="30" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+    </LinearLayout>
+</LinearLayout>

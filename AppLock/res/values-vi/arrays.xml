@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Kho ảnh</item>
+        <item>Kho video</item>
+        <item>Tùy chỉnh nền, thiết lập hình ảnh yêu thích của bạn</item>
+        <item>Cấu hình, dễ dàng thay đổi các kiểu khóa</item>
+        <item>Khóa tự động tại thời gian nhất định</item>
+        <item>Khóa tự động tại vị trí nhất định</item>
+        <item>Ẩn biểu tượng AppLock</item>
+        <item>Bàn phím ngẫu nhiên</item>
+        <item>Chuyển khóa (WiFi, BT, 3G/4G Dữ liệu...)</item>
+        <item>Nhiều tính năng khác sắp có...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>CN</item>
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+    </array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/plugins_app_itemview" app:background="@color/white" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@c1134b/plugins_list_app_item" app:background="?attr/selectableItemBackground" app:padding="@dimen/PaddingSizeLarge" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.domobile.frame.http.image.CacheImageView app:id="@c1134b/list_item_icon" app:layout_width="UNKNOWN_DATA_0x7f080150" app:layout_height="UNKNOWN_DATA_0x7f080150" app:layout_marginRight="@dimen/PaddingSizeMiddle" app:src="0x1080093" />
+        <TextView app:textSize="@dimen/TextSizeSmall" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/list_item_action" app:background="@c1133a/plugins_item_action_button" app:paddingLeft="@dimen/PaddingSizeSmallest" app:paddingRight="@dimen/PaddingSizeSmallest" app:layout_width="UNKNOWN_DATA_0x3201" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_toLeftOf="@c1134b/list_item_action" app:layout_toRightOf="@c1134b/list_item_icon" app:layout_centerVertical="true">
+            <TextView app:id="@c1134b/list_item_name" style="@c1138f/plugins_app_list_item_title" />
+            <RatingBar app:id="@c1134b/list_item_rating" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:isIndicator="true" style="@c1138f/small_rating_bar" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

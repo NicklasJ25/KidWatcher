@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>الصورة آمنة</item>
+        <item>الفيديو آمن</item>
+        <item>خلفية قفل محددة ذاتياً، يرجى اختيار صورتك المفضلة.</item>
+        <item>نظام المشهد، قفل سرعة تجميع التطبيق</item>
+        <item>تطبيقات الغلق الأتوماتيكي بالفترة الزمنية</item>
+        <item>تطبيقات الغلق الأتوماتيكي بالموقع.</item>
+        <item>إخفاء أيقونة قفل التطبيق</item>
+        <item>لوحة مفاتيح عشوائية</item>
+        <item>مفتاح القفل (واي فاي، بلوتوث، قاعدة بيانات الهاتف المحمول، المزامنة التلقائية)</item>
+        <item>ومازالت هناك المزيد من المزايا القادمة...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>ح</item>
+        <item>ن</item>
+        <item>ث</item>
+        <item>ر</item>
+        <item>خ</item>
+        <item>ج</item>
+        <item>س</item>
+    </array>
+</resources>

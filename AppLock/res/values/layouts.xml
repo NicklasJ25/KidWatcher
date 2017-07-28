@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="numboard">@layout/best_numboard</item>
+    <item type="layout" name="pattern_board">@layout/best_pattern_board</item>
+    <item type="layout" name="numboard_land">@layout/best_numboard_land</item>
+    <item type="layout" name="pattern_board_land">@layout/best_pattern_board_land</item>
+</resources>

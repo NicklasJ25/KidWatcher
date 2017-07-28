@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_appinfo_older_space">
+        <item name="android:layout_height">362.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="layout_heightPercent">-100.0%</item>
+    </style>
+    <style name="style_numslayout_landscape">
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">320.0dip</item>
+    </style>
+    <style name="style_password_edittext_bgview_land">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">40.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">320.0dip</item>
+    </style>
+</resources>

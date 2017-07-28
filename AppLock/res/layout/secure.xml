@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/settings_page_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080161"
+        <LinearLayout android:id="@c1134b/uc_pattern_radio_parent" android:background="?attr/selectableItemBackground" style="@c1138f/retrive_automic_radio_parent">
+            <TextView android:id="@c1134b/uc_pattern_radio" android:text="@c1137e/image_lock_pattern" style="@c1138f/secure_card_radio" />
+        </LinearLayout>
+        <View android:background="@color/unlock_settings_divider_color" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x2401" />
+        <LinearLayout android:id="@c1134b/uc_password_radio_parent" android:background="?attr/selectableItemBackground" style="@c1138f/retrive_automic_radio_parent">
+            <TextView android:id="@c1134b/uc_password_radio" android:text="@c1137e/number_lock_pattern" style="@c1138f/secure_card_radio" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/unlock_settings_secondary_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:text="@c1137e/options" android:textAllCaps="true" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:id="@c1134b/secure_pattern_lock_parent" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@c1134b/uc_modify_pattern" layout="@c1135c/secure_item" />
+                <include android:id="@c1134b/uc_pattern_visible" layout="@c1135c/secure_item" />
+                <include android:id="@c1134b/uc_pattern_vibrate" layout="@c1135c/secure_item" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@c1134b/secure_number_lock_parent" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@c1134b/uc_modify_password" layout="@c1135c/secure_item" />
+                <include android:id="@c1134b/uc_password_hint" layout="@c1135c/secure_item" />
+                <include android:id="@c1134b/uc_random_keyboard" layout="@c1135c/secure_item" />
+                <include android:id="@c1134b/uc_password_vibrate" layout="@c1135c/secure_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

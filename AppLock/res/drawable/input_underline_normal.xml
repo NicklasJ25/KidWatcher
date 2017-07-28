@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/divider_gray_std" />
+            <stroke android:width="@dimen/med_divider_size_dp" android:color="@color/divider_gray_std" />
+            <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/med_divider_size_dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_white_holo" />
+            <stroke android:width="0dp" android:color="@color/bg_white_holo" />
+            <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp" />
+            <corners android:topLeftRadius="0dp" android:topRightRadius="0dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>

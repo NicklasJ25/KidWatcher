@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="@dimen/code_list_item_padding" android:paddingRight="@dimen/code_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="0x1020006" android:layout_width="UNKNOWN_DATA_0x7f0800ab" android:layout_height="UNKNOWN_DATA_0x7f0800ab" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:scaleType="centerInside" />
+    <CheckedTextView android:textSize="@dimen/TextSizeLarge" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020014" android:layout_width="UNKNOWN_DATA_0x7f080032" android:layout_height="UNKNOWN_DATA_0x7f0800aa" android:layout_weight="1.0" />
+</LinearLayout>

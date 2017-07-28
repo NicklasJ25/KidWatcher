@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@c1133a/num_background" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:id="@c1134b/verify_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?attr/actionBarSize">
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c1134b/numboard_parent" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

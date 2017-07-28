@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@c1133a/vault_dialog_background" android:padding="@dimen/PaddingSizeLarge" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginTop="@dimen/PaddingSizeMiddle" android:src="@c1133a/icon_remind" android:contentDescription="0x0" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/primary_text_light" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c1137e/intruder_remind_title" android:textAllCaps="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/preference_summary_textcolor" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeMiddle" android:text="@c1137e/intruder_remind_desc" />
+        <com.domobile.frame.http.image.CacheImageView android:id="@c1134b/imvImage" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginTop="@dimen/PaddingSizeMiddle" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginTop="@dimen/PaddingSizeLarge" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:layout_marginBottom="@dimen/PaddingSizeSmaller">
+            <TextView android:textColor="@color/text_green_std" android:id="@c1134b/btnOk" android:background="@c1133a/btn_dialog_button4" android:text="0x104000a" android:textAllCaps="true" style="@c1138f/vault_dialog_button" />
+            <TextView android:id="@c1134b/btnCheck" android:background="@c1133a/vault_dialog_button3" android:layout_marginLeft="@dimen/PaddingSizeLarge" android:text="@c1137e/intruder_remind_check" android:textAllCaps="true" style="@c1138f/vault_dialog_button" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

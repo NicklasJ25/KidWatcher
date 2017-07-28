@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>תמונת Vault</item>
+        <item>וידאו Vault</item>
+        <item>התאמה אישית של רקע, הגדר את התמונה האהובה עליך</item>
+        <item>פרופילים, קל לשנות את המנעולים</item>
+        <item>נעילה אוטומטית בזמן נתון</item>
+        <item>נעילה אוטומטית במיקום נתון</item>
+        <item>הסתר סמל AppLock</item>
+        <item>מקלדת אקראית</item>
+        <item>מתג נעילה (WiFi, BT, 3G/4G נתונים ...)</item>
+        <item>תכונות נוספות בקרוב ...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>א׳</item>
+        <item>ב׳</item>
+        <item>ג׳</item>
+        <item>ד׳</item>
+        <item>ה׳</item>
+        <item>ו׳</item>
+        <item>ש׳</item>
+    </array>
+</resources>

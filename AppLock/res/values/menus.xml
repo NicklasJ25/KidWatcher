@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="bookmark_edit_menus">res/menu/bookmark_edit_menus.xml</menu>
+    <menu name="bookmark_list_bottom_menus">res/menu/bookmark_list_bottom_menus.xml</menu>
+    <menu name="bookmark_list_menus">res/menu/bookmark_list_menus.xml</menu>
+    <menu name="browser_main_menus">res/menu/browser_main_menus.xml</menu>
+    <menu name="browser_window_menus">res/menu/browser_window_menus.xml</menu>
+    <menu name="default_menus">res/menu/default_menus.xml</menu>
+    <menu name="download_list_bottom_menus">res/menu/download_list_bottom_menus.xml</menu>
+    <menu name="download_list_menus">res/menu/download_list_menus.xml</menu>
+    <menu name="gallery_toolbar_menus">res/menu/gallery_toolbar_menus.xml</menu>
+    <menu name="home_title_menus">res/menu/home_title_menus.xml</menu>
+    <menu name="invader_detail_menus">res/menu/invader_detail_menus.xml</menu>
+    <menu name="invader_main_menus">res/menu/invader_main_menus.xml</menu>
+    <menu name="lock_toolbar_menus">res/menu/lock_toolbar_menus.xml</menu>
+    <menu name="notification_center_menus">res/menu/notification_center_menus.xml</menu>
+    <menu name="pick_background_actionbar_menus">res/menu/pick_background_actionbar_menus.xml</menu>
+    <menu name="picture_hider_images_actionbar_menus">res/menu/picture_hider_images_actionbar_menus.xml</menu>
+    <menu name="picture_hider_images_toolbar_menus">res/menu/picture_hider_images_toolbar_menus.xml</menu>
+    <menu name="retrieve_password_menus">res/menu/retrieve_password_menus.xml</menu>
+    <menu name="scene_editor_actionbar_menus">res/menu/scene_editor_actionbar_menus.xml</menu>
+    <menu name="scene_editor_actionmode_menus">res/menu/scene_editor_actionmode_menus.xml</menu>
+    <menu name="scenes_menus">res/menu/scenes_menus.xml</menu>
+    <menu name="social_edit_menus">res/menu/social_edit_menus.xml</menu>
+    <menu name="social_visit_menus">res/menu/social_visit_menus.xml</menu>
+    <menu name="theme_picker_menus">res/menu/theme_picker_menus.xml</menu>
+</resources>

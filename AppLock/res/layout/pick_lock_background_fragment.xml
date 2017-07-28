@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.domobile.widget.OverscrollRecyclerView android:id="@c1134b/pick_lock_background_grid" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@c1135c/domo_empty_view" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/number_lock_menus_layout" app:padding="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.CardView app:id="@c1134b/number_lock_menus_cardview" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:cardPreventCornerOverlap="true" style="@style/CardView">
+        <ScrollView app:id="@c1134b/number_lock_menus_scroller" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeZero">
+            <LinearLayout app:orientation="vertical" app:id="@c1134b/number_lock_menus_tracks" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <Button app:id="@c1134b/number_lock_menus_forget_passwd" app:text="@c1137e/forget_passwd_title" style="@c1138f/numlock_menus_button" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

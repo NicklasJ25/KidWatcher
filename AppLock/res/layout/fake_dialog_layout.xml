@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/custom_dialog_parentPanel" android:background="@drawable/dialog_full_holo_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeMiddle" android:layout_marginTop="@dimen/PaddingSizeXXLarge" android:layout_marginRight="@dimen/PaddingSizeMiddle" android:layout_marginBottom="@dimen/PaddingSizeXXLarge"
+    <LinearLayout android:orientation="vertical" android:id="@id/custom_dialog_middlePanel" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_weight="1.0">
+        <ScrollView android:id="@id/custom_dialog_scrollView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:autoLink="UNKNOWN_DATA_0x0" android:id="@id/custom_dialog_message" android:padding="@dimen/PaddingSizeLarge" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010041" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/custom_dialog_bottomPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@c1134b/custom_dialog_bottomDivider" android:background="@drawable/list_divider_holo_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f08002b" />
+        <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/custom_dialog_ok" android:background="@drawable/dialog_btn_single_holo_light" android:layout_width="match_parent" android:text="0x104000a" style="@style/Widget_Holo_Button_light" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/fake_fc_teach" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1133a/finger_touch" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

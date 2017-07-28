@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/white" app:paddingLeft="@dimen/PaddingSizeSmall" app:paddingTop="@dimen/PaddingSizeLarge" app:paddingRight="@dimen/PaddingSizeSmall" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/PaddingSizeSmall">
+        <TextView app:textSize="36sp" app:textColor="@color/actionbar_toolbar_background" app:id="@c1134b/timer_item_time" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:singleLine="true" app:layout_weight="1.0" />
+        <android.support.v7.widget.SwitchCompat app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/timer_item_switch" app:background="0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:showText="false" />
+    </LinearLayout>
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@c1134b/timer_item_weekdays_layout" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:layout_marginBottom="@dimen/PaddingSizeLarge"
+        <LinearLayout app:orientation="horizontal" app:id="@c1134b/timer_item_weekdays" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <CheckBox style="@c1138f/timer_editor_weekday_checkbox" />
+            <CheckBox style="@c1138f/timer_editor_weekday_checkbox" />
+            <CheckBox style="@c1138f/timer_editor_weekday_checkbox" />
+            <CheckBox style="@c1138f/timer_editor_weekday_checkbox" />
+            <CheckBox style="@c1138f/timer_editor_weekday_checkbox" />
+            <CheckBox style="@c1138f/timer_editor_weekday_checkbox" />
+            <CheckBox app:layout_marginRight="0dp" style="@c1138f/timer_editor_weekday_checkbox" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView app:textColor="@color/line_dark" app:id="@c1134b/timer_item_action_label" app:visibility="gone" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/PaddingSizeZero" app:layout_marginTop="@dimen/PaddingSizeLarge" app:text="@c1137e/wifi_connect_event_label" style="@c1138f/trigger_editor_label_small" />
+    <TextView app:textSize="@dimen/TextSizeMiddle" app:textColor="@color/material_deep_teal_500" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/timer_item_action" app:background="?attr/selectableItemBackground" app:paddingLeft="@dimen/PaddingSizeSmaller" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="36dp" app:drawableRight="@c1133a/ic_expand_right" app:drawablePadding="@dimen/PaddingSizeTwo" />
+    <TextView app:textColor="@color/line_dark" app:id="@c1134b/timer_item_action_out_label" app:visibility="gone" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/PaddingSizeZero" app:layout_marginTop="@dimen/PaddingSizeLarge" app:text="@c1137e/wifi_disconnect_event_label" style="@c1138f/trigger_editor_label_small" />
+    <TextView app:textSize="@dimen/TextSizeMiddle" app:textColor="@color/material_deep_teal_500" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/timer_item_action_out" app:background="?attr/selectableItemBackground" app:paddingLeft="@dimen/PaddingSizeSmaller" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="36dp" app:drawableRight="@c1133a/ic_expand_right" app:drawablePadding="@dimen/PaddingSizeTwo" />
+    <TextView app:textSize="@dimen/TextSizeMiddle" app:textColor="@color/dark_gray" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/timer_item_name_editor" app:background="@drawable/textfield_focused_holo_light" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:layout_marginBottom="@dimen/PaddingSizeSmaller" app:hint="@c1137e/label" />
+    <RelativeLayout app:paddingTop="@dimen/PaddingSizeSmall" app:paddingBottom="@dimen/PaddingSizeLarge" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <ImageView app:id="@c1134b/timer_item_expand" app:layout_width="UNKNOWN_DATA_0x2001" app:layout_height="UNKNOWN_DATA_0x2001" app:src="@c1133a/ic_expand_down" app:tint="@color/line_dark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <LinearLayout app:orientation="horizontal" app:id="@c1134b/timer_item_summary" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toLeftOf="@c1134b/timer_item_expand" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+        <ImageView app:id="@c1134b/timer_item_delete" app:background="?attr/selectableItemBackgroundBorderless" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@c1133a/toolbar_trash" app:tint="@color/line_dark" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View app:id="@id/divider" app:background="@color/unlock_settings_divider_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f08002a" app:layout_marginLeft="@dimen/PaddingSizeSmall" app:layout_marginRight="@dimen/PaddingSizeSmall" />
+</LinearLayout>

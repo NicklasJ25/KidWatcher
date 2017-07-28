@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardView">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/PaddingSizeXLarge">
+            <TextView android:textColor="@color/primary_textcolor" android:ellipsize="end" android:autoLink="UNKNOWN_DATA_0x0" android:id="@c1134b/tvxTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@c1137e/subscription_choose_title" android:shadowColor="@color/white" android:shadowDy="1.0" android:shadowRadius="1.0" style="?unknown_attr_ref: 1010040" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeXLarge">
+                <FrameLayout android:background="@c1133a/item_billing_gray_round" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@c1134b/vgMonthLayer" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="#ffba00" android:id="@c1134b/txvMonthPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/secondary_textcolor" android:id="@c1134b/txvMonthText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeMiddle" android:text="@c1137e/advance_user_monthly" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:background="@c1133a/item_billing_gray_round" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeXLarge" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@c1134b/vgYearLayer" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="#ffba00" android:id="@c1134b/txvYearPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="@color/secondary_textcolor" android:id="@c1134b/txvYearText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeMiddle" android:text="@c1137e/advance_user_yearly" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1dp" android:src="@c1133a/icon_50off" android:contentDescription="0x0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

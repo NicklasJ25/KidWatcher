@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020004" android:padding="@dimen/PaddingSizeSmaller" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@c1134b/empty_loading_noitems" android:visibility="gone" style="@c1138f/no_items_fullscreen_text" />
+    <ImageView android:id="@c1134b/empty_loading_noitems_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@c1133a/no_messages" />
+    <ProgressBar android:id="@c1134b/empty_loading_progress" android:layout_width="UNKNOWN_DATA_0x7f08012c" android:layout_height="UNKNOWN_DATA_0x7f08012c" style="@style/Widget.AppCompat.ProgressBar" />
+    <TextView android:id="@c1134b/empty_loading_text" style="@c1138f/lock_fragment_loading_text" />
+</LinearLayout>

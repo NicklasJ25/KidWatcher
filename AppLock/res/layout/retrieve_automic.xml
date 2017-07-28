@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@c1134b/retrieve_automic" app:padding="@dimen/PaddingSizeSmaller" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.CardView app:id="@c1134b/retrieve_automic_topbox" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" style="@style/CardView">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:text="@c1137e/retrieve_password" style="@c1138f/card_title_text" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080032" app:layout_weight="1.0"
+                <LinearLayout app:orientation="horizontal" app:id="@c1134b/retrieve_password_radios" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f08015d"
+                    <LinearLayout app:id="@c1134b/retrieve_password_radio1_parent" app:background="?attr/selectableItemBackground" style="@c1138f/retrive_automic_radio_parent">
+                        <CheckBox app:id="@c1134b/retrieve_password_radio1" app:text="@c1137e/security_question" style="@c1138f/retrive_automic_radio" />
+                    </LinearLayout>
+                    <LinearLayout app:id="@c1134b/retrieve_password_radio2_parent" app:background="?attr/selectableItemBackground" style="@c1138f/retrive_automic_radio_parent">
+                        <CheckBox app:id="@c1134b/retrieve_password_radio2" app:text="@c1137e/secure_email" style="@c1138f/retrive_automic_radio" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView app:id="@c1134b/retrieve_password_layout1" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" style="@style/CardView">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:orientation="vertical" app:padding="@dimen/retrive_automic_marginTop" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:id="@c1134b/retrieve_password_question" style="@c1138f/retrive_automic_comment_text" />
+                <EditText app:id="@c1134b/retrieve_password_answer" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:hint="@c1137e/security_answer" style="@c1138f/card_edittext" />
+            </LinearLayout>
+            <View app:layout_marginTop="@dimen/retrive_automic_marginTop" style="@c1138f/card_button_topline" />
+            <Button app:id="@c1134b/retrieve_password_commit_answer" app:text="@c1137e/reset_passwd_title" style="@c1138f/card_bottom_button" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout app:orientation="vertical" app:id="@c1134b/retrieve_password_layout2" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" style="@style/CardView">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="vertical" app:padding="@dimen/retrive_automic_marginTop" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:text="@c1137e/query_secure_code_step1" style="@c1138f/retrive_automic_comment_text" />
+                    <EditText app:id="@c1134b/retrieve_password_secure_email" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:hint="@c1137e/secure_email" style="@c1138f/card_edittext" />
+                </LinearLayout>
+                <View app:layout_marginTop="@dimen/retrive_automic_marginTop" style="@c1138f/card_button_topline" />
+                <Button app:id="@c1134b/retrieve_password_query_code" app:text="@c1137e/query_secure_code" style="@c1138f/card_bottom_button" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" style="@style/CardView">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="vertical" app:padding="@dimen/retrive_automic_marginTop" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:text="@c1137e/query_secure_code_step2" style="@c1138f/retrive_automic_comment_text" />
+                    <EditText app:id="@c1134b/retrieve_password_secure_code" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:hint="@c1137e/secure_code" app:maxLength="8" style="@c1138f/card_edittext" />
+                </LinearLayout>
+                <View app:layout_marginTop="@dimen/retrive_automic_marginTop" style="@c1138f/card_button_topline" />
+                <Button app:id="@c1134b/retrieve_password_commit_code" app:text="@c1137e/reset_passwd_title" style="@c1138f/card_bottom_button" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <android.support.v7.widget.CardView app:id="@c1134b/vgSupportEmail" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" style="@style/CardView">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="@dimen/TextSizeSmall" app:autoLink="email|all" app:paddingLeft="@dimen/PaddingSizeMiddle" app:paddingRight="@dimen/PaddingSizeMiddle" app:visibility="visible" app:layout_width="match_parent" app:layout_marginTop="@dimen/PaddingSizeMiddle" app:layout_marginBottom="@dimen/PaddingSizeMiddle" app:text="@c1137e/query_secure_code_faq" style="@c1138f/retrive_automic_comment_text" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

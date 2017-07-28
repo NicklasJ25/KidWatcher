@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.domobile.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.domobile.preference.Preference android:title="@string/clear_user_data_text" android:key="clear_user_data_pref" android:summary="@string/calculating_size" />
+    <com.domobile.preference.Preference android:layout="@layout/preference_layout" android:title="@string/clear_cache_btn_text" android:key="clear_cache_pref" android:summary="@string/calculating_size" />
+</com.domobile.preference.PreferenceScreen>

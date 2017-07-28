@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="0x1020000" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingTop="@dimen/PaddingSizeXLarge" android:paddingRight="?unknown_attr_ref: 1010063" android:paddingBottom="@dimen/PaddingSizeXLarge" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="0x1020006" android:paddingLeft="@dimen/PaddingSizeMiddle" android:paddingRight="@dimen/PaddingSizeMiddle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmall" />
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f080032" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/PaddingSizeSmaller" android:layout_marginRight="@dimen/PaddingSizeSmaller" android:layout_weight="1.0">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/primary_text_light" android:ellipsize="marquee" android:id="0x1020016" android:paddingBottom="@dimen/PaddingSizeSmallest" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/preference_summary_textcolor" android:id="0x1020010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="0x1020016" android:layout_alignLeft="0x1020016" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="0x1020018" android:layout_width="wrap_content" android:layout_height="match_parent" /> />
+    <View android:id="@id/divider" android:background="@color/preference_divider_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f08002a" android:layout_marginLeft="50dp" />
+    <ImageView android:id="0x102002e" android:background="@drawable/abs__ab_solid_shadow_holo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+</LinearLayout>

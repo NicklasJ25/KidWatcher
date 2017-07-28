@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="verify_anim_view" />
+    <item type="id" name="verify_scrollview" />
+    <item type="id" name="update_version_button" />
+    <item type="id" name="update_version_image" />
+    <item type="id" name="verify_change_bg_button" />
+    <item type="id" name="numboard_parent" />
+    <item type="id" name="numboard_whole_layout" />
+    <item type="id" name="numboard_infoslayout" />
+    <item type="id" name="numboard_appicon_imageview" />
+    <item type="id" name="numboard_appname_textview" />
+    <item type="id" name="numboard_state_textview" />
+    <item type="id" name="numboard_pwd_edittext" />
+    <item type="id" name="numboard_retrieve_pwd" />
+    <item type="id" name="numboard_numslayout" />
+    <item type="id" name="numboard_num0_button" />
+    <item type="id" name="numboard_num1_button" />
+    <item type="id" name="numboard_num2_button" />
+    <item type="id" name="numboard_num3_button" />
+    <item type="id" name="numboard_num4_button" />
+    <item type="id" name="numboard_num5_button" />
+    <item type="id" name="numboard_num6_button" />
+    <item type="id" name="numboard_num7_button" />
+    <item type="id" name="numboard_num8_button" />
+    <item type="id" name="numboard_num9_button" />
+    <item type="id" name="numboard_exit_button" />
+    <item type="id" name="numboard_back_button" />
+    <item type="id" name="numboard_delete_button" />
+    <item type="id" name="numboard_sure_button" />
+    <item type="id" name="rolltext" />
+    <item type="id" name="numboard_edittext_bg" />
+    <item type="id" name="numboard_appicon_slot" />
+    <item type="id" name="numboard_appinfo" />
+    <item type="id" name="pattern_board_bgview" />
+    <item type="id" name="pattern_board_appicon_imageview" />
+    <item type="id" name="pattern_board_appname_textview" />
+    <item type="id" name="pattern_board_change_to_number_lock_button" />
+    <item type="id" name="pattern_board_headerText" />
+    <item type="id" name="pattern_board_patternview" />
+    <item type="id" name="pattern_board_topbg" />
+    <item type="id" name="pattern_board_appinfo" />
+    <item type="id" name="pattern_board_appicon_slot" />
+    <item type="id" name="adview_layout" />
+    <item type="id" name="adview_layout_margin" />
+    <item type="id" name="numboard_below_appinfo" />
+    <item type="id" name="locker_board_more" />
+    <item type="id" name="locker_board_fingerprint" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="action_toolbar" />
+    <item type="id" name="button_try_sfb" />
+    <item type="id" name="button_try_sfd" />
+    <item type="id" name="crash_reporting_present" />
+    <item type="id" name="default_menu_help" />
+    <item type="id" name="default_menu_rate" />
+    <item type="id" name="default_menu_setting" />
+    <item type="id" name="default_menu_share" />
+    <item type="id" name="drawer_layout" />
+    <item type="id" name="fab_expand_menu_button" />
+    <item type="id" name="fab_label" />
+    <item type="id" name="fingerprint_icon_view" />
+    <item type="id" name="gallery_toolbar_menu_delete" />
+    <item type="id" name="gallery_toolbar_menu_detail" />
+    <item type="id" name="gallery_toolbar_menu_group" />
+    <item type="id" name="gallery_toolbar_menu_revert" />
+    <item type="id" name="gallery_toolbar_menu_rotate_left" />
+    <item type="id" name="gallery_toolbar_menu_rotate_right" />
+    <item type="id" name="gallery_toolbar_menu_share" />
+    <item type="id" name="gridview" />
+    <item type="id" name="home" />
+    <item type="id" name="image_gallery_hide" />
+    <item type="id" name="image_gallery_selectall" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="menu_actionbar_search" />
+    <item type="id" name="menu_pick_numboard_color" />
+    <item type="id" name="notify_foreground" />
+    <item type="id" name="notify_hided_medias_action" />
+    <item type="id" name="notify_hided_medias_foreground_action" />
+    <item type="id" name="notify_hided_medias_progress" />
+    <item type="id" name="notify_push_message" />
+    <item type="id" name="notify_stepwindow_foreground" />
+    <item type="id" name="notify_switch_freemode" />
+    <item type="id" name="notify_trial_ended" />
+    <item type="id" name="notify_trigger_excute" />
+    <item type="id" name="notify_watch_failed_tasks" />
+    <item type="id" name="permission_toplayer_warnig" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="show_notification" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="tag_image" />
+    <item type="id" name="tag_link" />
+    <item type="id" name="tag_object" />
+    <item type="id" name="textinput_counter" />
+    <item type="id" name="textinput_error" />
+    <item type="id" name="transition_current_scene" />
+    <item type="id" name="transition_scene_layoutid_cache" />
+    <item type="id" name="view_offset_helper" />
+    <item type="id" name="view_pager_tabs" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollIndicatorUp">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="textSpacerNoTitle">false</item>
+    <item type="id" name="textSpacerNoButtons">false</item>
+    <item type="id" name="scrollIndicatorDown">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="titleDividerNoCustom">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="submenuarrow">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
+    <item type="id" name="about_header">false</item>
+    <item type="id" name="about_app_icon">false</item>
+    <item type="id" name="about_app_name">false</item>
+    <item type="id" name="about_app_version">false</item>
+    <item type="id" name="about_weburl">false</item>
+    <item type="id" name="about_email">false</item>
+    <item type="id" name="about_change_log">false</item>
+    <item type="id" name="about_gplus">false</item>
+    <item type="id" name="about_facebook">false</item>
+    <item type="id" name="about_twitter">false</item>
+    <item type="id" name="about_copyright">false</item>
+    <item type="id" name="acstract_gallery_pager_content">false</item>
+    <item type="id" name="actionbar_editor_edit">false</item>
+    <item type="id" name="actionbar_editor_clear">false</item>
+    <item type="id" name="appBarLayout">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="edtInput">false</item>
+    <item type="id" name="mWebView">false</item>
+    <item type="id" name="vgHintLayer">false</item>
+    <item type="id" name="pbLoadProgress">false</item>
+    <item type="id" name="drawer_promt_cardview">false</item>
+    <item type="id" name="drawer_promt_imageview">false</item>
+    <item type="id" name="drawerlayout_left">false</item>
+    <item type="id" name="activity_verify_cotent">false</item>
+    <item type="id" name="domo_activity_fragment">false</item>
+    <item type="id" name="billing_center_scroll_content">false</item>
+    <item type="id" name="billing_center_advance_user_layout">false</item>
+    <item type="id" name="billing_center_advance_user">false</item>
+    <item type="id" name="billing_center_user_button">false</item>
+    <item type="id" name="billing_advance_user_summary">false</item>
+    <item type="id" name="billing_subs_monthly">false</item>
+    <item type="id" name="billing_subs_yearly">false</item>
+    <item type="id" name="btnCancelSubscription">false</item>
+    <item type="id" name="billing_center_admode_bgview">false</item>
+    <item type="id" name="billing_center_admode_layout">false</item>
+    <item type="id" name="billing_center_admode_title">false</item>
+    <item type="id" name="billing_center_admode_button">false</item>
+    <item type="id" name="billing_center_admode_summary">false</item>
+    <item type="id" name="billing_center_freemode_layout">false</item>
+    <item type="id" name="billing_center_freemode_title">false</item>
+    <item type="id" name="billing_center_freemode_button">false</item>
+    <item type="id" name="billing_center_freemode_summary">false</item>
+    <item type="id" name="billing_center_ulayout">false</item>
+    <item type="id" name="billing_center_uinfo">false</item>
+    <item type="id" name="billing_center_usummary">false</item>
+    <item type="id" name="billing_center_feature_layout">false</item>
+    <item type="id" name="billing_center_why">false</item>
+    <item type="id" name="billing_listview">false</item>
+    <item type="id" name="billing_upgrade_button">false</item>
+    <item type="id" name="save">false</item>
+    <item type="id" name="discard">false</item>
+    <item type="id" name="custom_dialog_panelLayout">false</item>
+    <item type="id" name="custom_dialog_animView">false</item>
+    <item type="id" name="custom_dialog_parentPanel">false</item>
+    <item type="id" name="custom_dialog_topPanel">false</item>
+    <item type="id" name="custom_dialog_icon">false</item>
+    <item type="id" name="custom_dialog_title">false</item>
+    <item type="id" name="custom_dialog_middlePanel">false</item>
+    <item type="id" name="custom_dialog_scrollView">false</item>
+    <item type="id" name="custom_dialog_message">false</item>
+    <item type="id" name="custom_dialog_list">false</item>
+    <item type="id" name="custom_dialog_bottomPanel">false</item>
+    <item type="id" name="custom_dialog_cancel">false</item>
+    <item type="id" name="custom_dialog_mid_button">false</item>
+    <item type="id" name="custom_dialog_ok">false</item>
+    <item type="id" name="smallLabel">false</item>
+    <item type="id" name="largeLabel">false</item>
+    <item type="id" name="touch_outside">false</item>
+    <item type="id" name="design_bottom_sheet">false</item>
+    <item type="id" name="snackbar_text">false</item>
+    <item type="id" name="snackbar_action">false</item>
+    <item type="id" name="navigation_header_container">false</item>
+    <item type="id" name="design_navigation_view">false</item>
+    <item type="id" name="design_menu_item_text">false</item>
+    <item type="id" name="design_menu_item_action_area_stub">false</item>
+    <item type="id" name="design_menu_item_action_area">false</item>
+    <item type="id" name="text_input_password_toggle">false</item>
+    <item type="id" name="scroll_view">false</item>
+    <item type="id" name="details_thumbnail_image">false</item>
+    <item type="id" name="details_image_title">false</item>
+    <item type="id" name="details_file_size_value">false</item>
+    <item type="id" name="details_resolution_row">false</item>
+    <item type="id" name="details_resolution_value">false</item>
+    <item type="id" name="details_duration_row">false</item>
+    <item type="id" name="details_duration_value">false</item>
+    <item type="id" name="details_date_taken_row">false</item>
+    <item type="id" name="details_date_taken_value">false</item>
+    <item type="id" name="imvImage">false</item>
+    <item type="id" name="btnOk">false</item>
+    <item type="id" name="btnCheck">false</item>
+    <item type="id" name="dialog_rename_profine_text">false</item>
+    <item type="id" name="vgFacebook">false</item>
+    <item type="id" name="vgTwitter">false</item>
+    <item type="id" name="vgLinkedin">false</item>
+    <item type="id" name="vgGooglePlus">false</item>
+    <item type="id" name="tvxTitle">false</item>
+    <item type="id" name="vgMonthLayer">false</item>
+    <item type="id" name="txvMonthPrice">false</item>
+    <item type="id" name="txvMonthText">false</item>
+    <item type="id" name="vgYearLayer">false</item>
+    <item type="id" name="txvYearPrice">false</item>
+    <item type="id" name="txvYearText">false</item>
+    <item type="id" name="edtInvitationCode">false</item>
+    <item type="id" name="btnGetCode">false</item>
+    <item type="id" name="btnActivate">false</item>
+    <item type="id" name="txvBuyVip">false</item>
+    <item type="id" name="domo_action_bar_titlebar_margin">false</item>
+    <item type="id" name="domo_action_bar_toolbar">false</item>
+    <item type="id" name="domo_action_bar_container">false</item>
+    <item type="id" name="domo_action_bar_topbar">false</item>
+    <item type="id" name="domo_action_bar_titlebar">false</item>
+    <item type="id" name="domo_action_bar_titlebar_left_layout">false</item>
+    <item type="id" name="domo_action_bar_titlebar_left">false</item>
+    <item type="id" name="domo_action_bar_titlebar_left_badge">false</item>
+    <item type="id" name="domo_action_bar_titlebar_titleview">false</item>
+    <item type="id" name="domo_action_bar_titlebar_title">false</item>
+    <item type="id" name="domo_action_bar_titlebar_right_layout">false</item>
+    <item type="id" name="domo_action_bar_titlebar_right">false</item>
+    <item type="id" name="domo_action_bar_float_toolbar">false</item>
+    <item type="id" name="domo_activity_content">false</item>
+    <item type="id" name="empty_loading_noitems">false</item>
+    <item type="id" name="empty_loading_noitems_image">false</item>
+    <item type="id" name="empty_loading_progress">false</item>
+    <item type="id" name="empty_loading_text">false</item>
+    <item type="id" name="help_item_icon">false</item>
+    <item type="id" name="help_item_content">false</item>
+    <item type="id" name="domo_menu_scroller">false</item>
+    <item type="id" name="domo_menu_tracks">false</item>
+    <item type="id" name="domobile_fullscreen_ad_pic">false</item>
+    <item type="id" name="domobile_fullscreen_ad_close">false</item>
+    <item type="id" name="prev">false</item>
+    <item type="id" name="rew">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="ffwd">false</item>
+    <item type="id" name="next">false</item>
+    <item type="id" name="time_current">false</item>
+    <item type="id" name="mediacontroller_progress">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="video_frame">false</item>
+    <item type="id" name="shutter">false</item>
+    <item type="id" name="subtitles">false</item>
+    <item type="id" name="control">false</item>
+    <item type="id" name="theme_tips_text">false</item>
+    <item type="id" name="custom_dialog_bottomDivider">false</item>
+    <item type="id" name="fake_fc_teach">false</item>
+    <item type="id" name="fake_fc_toplayout">false</item>
+    <item type="id" name="verify_fakeview">false</item>
+    <item type="id" name="verify_foreground1">false</item>
+    <item type="id" name="verify_foreground2">false</item>
+    <item type="id" name="fake_try_summary">false</item>
+    <item type="id" name="fake_try_help">false</item>
+    <item type="id" name="fake_try_help_touch">false</item>
+    <item type="id" name="fake_view_toplayout">false</item>
+    <item type="id" name="verify_fake_logo">false</item>
+    <item type="id" name="fake_view_forground">false</item>
+    <item type="id" name="fake_view_teach">false</item>
+    <item type="id" name="vgSubsMode">false</item>
+    <item type="id" name="txvSubsDesc">false</item>
+    <item type="id" name="txvSubsPrice">false</item>
+    <item type="id" name="txvCancelSubs">false</item>
+    <item type="id" name="vgAdsMode">false</item>
+    <item type="id" name="txvAdsDesc">false</item>
+    <item type="id" name="vgFreeMode">false</item>
+    <item type="id" name="vgPremiumList">false</item>
+    <item type="id" name="vgPremiumTitle">false</item>
+    <item type="id" name="rcvPremiumList">false</item>
+    <item type="id" name="edtName">false</item>
+    <item type="id" name="edtURL">false</item>
+    <item type="id" name="contentView">false</item>
+    <item type="id" name="rcvBookmarkList">false</item>
+    <item type="id" name="imvEmptyView">false</item>
+    <item type="id" name="vgRefreshLayout">false</item>
+    <item type="id" name="rcvItemList">false</item>
+    <item type="id" name="rcvDownloadList">false</item>
+    <item type="id" name="sfb_title">false</item>
+    <item type="id" name="single_setting_intro">false</item>
+    <item type="id" name="sfb_action">false</item>
+    <item type="id" name="sfb_content">false</item>
+    <item type="id" name="fragment_infos_card">false</item>
+    <item type="id" name="fragment_infos_card_title">false</item>
+    <item type="id" name="fragment_infos_card_message">false</item>
+    <item type="id" name="fragment_infos_card_button1">false</item>
+    <item type="id" name="fragment_infos_card_item">false</item>
+    <item type="id" name="fragment_infos_card_item_event">false</item>
+    <item type="id" name="fragment_infos_card_item_title">false</item>
+    <item type="id" name="fragment_infos_card_item_message">false</item>
+    <item type="id" name="fragment_infos_card_item_more">false</item>
+    <item type="id" name="fragment_infos_card_item_details">false</item>
+    <item type="id" name="fragment_infos_card_item_cardview">false</item>
+    <item type="id" name="fragment_infos_card_item_margin">false</item>
+    <item type="id" name="root">false</item>
+    <item type="id" name="vlgContainer">false</item>
+    <item type="id" name="txvTime">false</item>
+    <item type="id" name="vgHeaderLayer">false</item>
+    <item type="id" name="imvIcon">false</item>
+    <item type="id" name="swhCheckbox">false</item>
+    <item type="id" name="txvTitle">false</item>
+    <item type="id" name="txvDesc">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="rcvInvaderList">false</item>
+    <item type="id" name="vgEmptyLayer">false</item>
+    <item type="id" name="locker_swipe_refresh">false</item>
+    <item type="id" name="main_list">false</item>
+    <item type="id" name="list_item_group_title">false</item>
+    <item type="id" name="locker_header_container">false</item>
+    <item type="id" name="locker_media_safe">false</item>
+    <item type="id" name="locker_backroom">false</item>
+    <item type="id" name="locker_recommend">false</item>
+    <item type="id" name="imvRecommend">false</item>
+    <item type="id" name="locker_header_func">false</item>
+    <item type="id" name="locker_header_more">false</item>
+    <item type="id" name="list_item_group_margin">false</item>
+    <item type="id" name="locker_item_content">false</item>
+    <item type="id" name="locker_item_event">false</item>
+    <item type="id" name="list_item_icon">false</item>
+    <item type="id" name="list_item_name">false</item>
+    <item type="id" name="list_item_size">false</item>
+    <item type="id" name="list_item_permission">false</item>
+    <item type="id" name="list_item_footer">false</item>
+    <item type="id" name="fragment_locker_promt_title">false</item>
+    <item type="id" name="fragment_locker_promt_message">false</item>
+    <item type="id" name="viewPager">false</item>
+    <item type="id" name="fabAdd">false</item>
+    <item type="id" name="rcvNotificationList">false</item>
+    <item type="id" name="bottom_layout">false</item>
+    <item type="id" name="selecct_all">false</item>
+    <item type="id" name="security_list">false</item>
+    <item type="id" name="security_item_card">false</item>
+    <item type="id" name="imvPlatformIcon">false</item>
+    <item type="id" name="txvPlatformName">false</item>
+    <item type="id" name="edtAccount">false</item>
+    <item type="id" name="edtNickname">false</item>
+    <item type="id" name="txvSave">false</item>
+    <item type="id" name="vgTwitterLayer">false</item>
+    <item type="id" name="rcvTwitterList">false</item>
+    <item type="id" name="vgFacebookLayer">false</item>
+    <item type="id" name="rcvFacebookList">false</item>
+    <item type="id" name="vgGoogleLayer">false</item>
+    <item type="id" name="rcvGoogleList">false</item>
+    <item type="id" name="vgLinkedinLayer">false</item>
+    <item type="id" name="rcvLinkedinList">false</item>
+    <item type="id" name="surface_view">false</item>
+    <item type="id" name="movie_view_control1">false</item>
+    <item type="id" name="movie_view_time">false</item>
+    <item type="id" name="movie_view_progress">false</item>
+    <item type="id" name="movie_view_duration">false</item>
+    <item type="id" name="movie_view_control2">false</item>
+    <item type="id" name="movie_view_prev">false</item>
+    <item type="id" name="movie_view_backward">false</item>
+    <item type="id" name="movie_view_play">false</item>
+    <item type="id" name="movie_view_forward">false</item>
+    <item type="id" name="movie_view_next">false</item>
+    <item type="id" name="gallery_root">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="footer">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="thumbnail">false</item>
+    <item type="id" name="quantity">false</item>
+    <item type="id" name="albums">false</item>
+    <item type="id" name="gallerypicker_add">false</item>
+    <item type="id" name="gl_root_view">false</item>
+    <item type="id" name="gl_root_cover">false</item>
+    <item type="id" name="guide_numboard">false</item>
+    <item type="id" name="guide_patternboard">false</item>
+    <item type="id" name="guide_steps">false</item>
+    <item type="id" name="guide_step_one">false</item>
+    <item type="id" name="guide_step_two">false</item>
+    <item type="id" name="guide_step_three">false</item>
+    <item type="id" name="guide_step_line1">false</item>
+    <item type="id" name="guide_step_line2">false</item>
+    <item type="id" name="guide_security_layout">false</item>
+    <item type="id" name="guide_secure_appicon">false</item>
+    <item type="id" name="guide_security_email_edittext">false</item>
+    <item type="id" name="guide_save_button">false</item>
+    <item type="id" name="progress_num">false</item>
+    <item type="id" name="progress_wating">false</item>
+    <item type="id" name="remain_time_textview">false</item>
+    <item type="id" name="listview">false</item>
+    <item type="id" name="no_images">false</item>
+    <item type="id" name="no_pictures_image">false</item>
+    <item type="id" name="image_gallery_root">false</item>
+    <item type="id" name="image_gallery_play_video">false</item>
+    <item type="id" name="image_gallery_item_state">false</item>
+    <item type="id" name="image_gallery_item_progress">false</item>
+    <item type="id" name="cardView">false</item>
+    <item type="id" name="vgItemLayer">false</item>
+    <item type="id" name="txvEdit">false</item>
+    <item type="id" name="txvDelete">false</item>
+    <item type="id" name="imvState">false</item>
+    <item type="id" name="txvUrl">false</item>
+    <item type="id" name="imvMore">false</item>
+    <item type="id" name="imvRemind">false</item>
+    <item type="id" name="txvCancel">false</item>
+    <item type="id" name="txvRestart">false</item>
+    <item type="id" name="txvName">false</item>
+    <item type="id" name="txvSize">false</item>
+    <item type="id" name="vgProgress">false</item>
+    <item type="id" name="progressView">false</item>
+    <item type="id" name="imvProgress">false</item>
+    <item type="id" name="native_ad_container">false</item>
+    <item type="id" name="native_ad_icon">false</item>
+    <item type="id" name="native_ad_title">false</item>
+    <item type="id" name="ad_choices_container">false</item>
+    <item type="id" name="native_ad_body">false</item>
+    <item type="id" name="native_ad_call_to_action">false</item>
+    <item type="id" name="native_ad_unit">false</item>
+    <item type="id" name="native_ad_media">false</item>
+    <item type="id" name="blurView">false</item>
+    <item type="id" name="txvContent">false</item>
+    <item type="id" name="txvPostTime">false</item>
+    <item type="id" name="rcvPluginsList">false</item>
+    <item type="id" name="rabRating">false</item>
+    <item type="id" name="txvAction">false</item>
+    <item type="id" name="vgRecommendList">false</item>
+    <item type="id" name="indicator">false</item>
+    <item type="id" name="liveBgView">false</item>
+    <item type="id" name="iconDecorView">false</item>
+    <item type="id" name="pwdBgView">false</item>
+    <item type="id" name="passwordView">false</item>
+    <item type="id" name="liveNumberView">false</item>
+    <item type="id" name="main_pager_pages">false</item>
+    <item type="id" name="action_container">false</item>
+    <item type="id" name="action_image">false</item>
+    <item type="id" name="action_text">false</item>
+    <item type="id" name="imvAppList">false</item>
+    <item type="id" name="action0">false</item>
+    <item type="id" name="cancel_action">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="media_actions">false</item>
+    <item type="id" name="action_divider">false</item>
+    <item type="id" name="notification_main_column_container">false</item>
+    <item type="id" name="notification_main_column">false</item>
+    <item type="id" name="right_side">false</item>
+    <item type="id" name="chronometer">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="right_icon">false</item>
+    <item type="id" name="notification_background">false</item>
+    <item type="id" name="actions">false</item>
+    <item type="id" name="icon_group">false</item>
+    <item type="id" name="line1">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="line3">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="end_padder">false</item>
+    <item type="id" name="number_lock_menus_layout">false</item>
+    <item type="id" name="number_lock_menus_cardview">false</item>
+    <item type="id" name="number_lock_menus_scroller">false</item>
+    <item type="id" name="number_lock_menus_tracks">false</item>
+    <item type="id" name="number_lock_menus_forget_passwd">false</item>
+    <item type="id" name="topLayout">false</item>
+    <item type="id" name="pattern_lock_animview">false</item>
+    <item type="id" name="pattern_board_container">false</item>
+    <item type="id" name="unlock_page_gift">false</item>
+    <item type="id" name="page_indicator">false</item>
+    <item type="id" name="pick_lock_background_pages">false</item>
+    <item type="id" name="pick_lock_background_grid">false</item>
+    <item type="id" name="pick_lock_background_item_imgcontainer">false</item>
+    <item type="id" name="pick_lock_background_item_image">false</item>
+    <item type="id" name="pick_lock_background_item_checked">false</item>
+    <item type="id" name="pick_lock_background_item_delete">false</item>
+    <item type="id" name="plugins_app_itemview">false</item>
+    <item type="id" name="plugins_list_app_item">false</item>
+    <item type="id" name="list_item_action">false</item>
+    <item type="id" name="list_item_rating">false</item>
+    <item type="id" name="preference_edittext_container">false</item>
+    <item type="id" name="preference_seekbar">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="progress_percent">false</item>
+    <item type="id" name="progress_number">false</item>
+    <item type="id" name="body">false</item>
+    <item type="id" name="push_dialog_top_content">false</item>
+    <item type="id" name="push_dialog_content_icon">false</item>
+    <item type="id" name="push_dialog_content_maintitle">false</item>
+    <item type="id" name="push_dialog_content_subtitle">false</item>
+    <item type="id" name="push_dialog_content_msg">false</item>
+    <item type="id" name="retrieve_security_question_edittext">false</item>
+    <item type="id" name="retrieve_security_answer_edittext">false</item>
+    <item type="id" name="retrieve_security_email_edittext">false</item>
+    <item type="id" name="retrieve_password_setting_save_button">false</item>
+    <item type="id" name="retrieve_automic">false</item>
+    <item type="id" name="retrieve_automic_topbox">false</item>
+    <item type="id" name="retrieve_password_radios">false</item>
+    <item type="id" name="retrieve_password_radio1_parent">false</item>
+    <item type="id" name="retrieve_password_radio1">false</item>
+    <item type="id" name="retrieve_password_radio2_parent">false</item>
+    <item type="id" name="retrieve_password_radio2">false</item>
+    <item type="id" name="retrieve_password_layout1">false</item>
+    <item type="id" name="retrieve_password_question">false</item>
+    <item type="id" name="retrieve_password_answer">false</item>
+    <item type="id" name="retrieve_password_commit_answer">false</item>
+    <item type="id" name="retrieve_password_layout2">false</item>
+    <item type="id" name="retrieve_password_secure_email">false</item>
+    <item type="id" name="retrieve_password_query_code">false</item>
+    <item type="id" name="retrieve_password_secure_code">false</item>
+    <item type="id" name="retrieve_password_commit_code">false</item>
+    <item type="id" name="vgSupportEmail">false</item>
+    <item type="id" name="scenes_list">false</item>
+    <item type="id" name="scenes_add">false</item>
+    <item type="id" name="scenes_item_toplayout">false</item>
+    <item type="id" name="scenes_item_parent">false</item>
+    <item type="id" name="scenes_item_icon">false</item>
+    <item type="id" name="scenes_item_title">false</item>
+    <item type="id" name="scenes_item_summary">false</item>
+    <item type="id" name="scenes_item_apps">false</item>
+    <item type="id" name="scenes_item_more">false</item>
+    <item type="id" name="scenes_item_more_card">false</item>
+    <item type="id" name="scenes_item_more_menus">false</item>
+    <item type="id" name="scenes_item_edit">false</item>
+    <item type="id" name="scenes_item_shotcut">false</item>
+    <item type="id" name="scenes_item_delete">false</item>
+    <item type="id" name="uc_pattern_radio_parent">false</item>
+    <item type="id" name="uc_pattern_radio">false</item>
+    <item type="id" name="uc_password_radio_parent">false</item>
+    <item type="id" name="uc_password_radio">false</item>
+    <item type="id" name="secure_pattern_lock_parent">false</item>
+    <item type="id" name="uc_modify_pattern">false</item>
+    <item type="id" name="uc_pattern_visible">false</item>
+    <item type="id" name="uc_pattern_vibrate">false</item>
+    <item type="id" name="secure_number_lock_parent">false</item>
+    <item type="id" name="uc_modify_password">false</item>
+    <item type="id" name="uc_password_hint">false</item>
+    <item type="id" name="uc_random_keyboard">false</item>
+    <item type="id" name="uc_password_vibrate">false</item>
+    <item type="id" name="edittext_security_email">false</item>
+    <item type="id" name="single_setting_top">false</item>
+    <item type="id" name="single_settings_item">false</item>
+    <item type="id" name="single_setting_switcher">false</item>
+    <item type="id" name="single_setting_content">false</item>
+    <item type="id" name="drawer_userinfo">false</item>
+    <item type="id" name="drawer_avatar">false</item>
+    <item type="id" name="drawer_level">false</item>
+    <item type="id" name="drawer_email">false</item>
+    <item type="id" name="drawer_listview">false</item>
+    <item type="id" name="left_select_flag">false</item>
+    <item type="id" name="step_window_text">false</item>
+    <item type="id" name="theme_apply_image">false</item>
+    <item type="id" name="theme_fc">false</item>
+    <item type="id" name="theme_picker_item_imgcontainer">false</item>
+    <item type="id" name="theme_picker_item_image">false</item>
+    <item type="id" name="theme_picker_item_name">false</item>
+    <item type="id" name="theme_picker_item_checked">false</item>
+    <item type="id" name="theme_picker_item_live">false</item>
+    <item type="id" name="theme_picker_item_charge">false</item>
+    <item type="id" name="time_display">false</item>
+    <item type="id" name="center_view">false</item>
+    <item type="id" name="hour_space">false</item>
+    <item type="id" name="separator">false</item>
+    <item type="id" name="hours">false</item>
+    <item type="id" name="minutes_space">false</item>
+    <item type="id" name="minutes">false</item>
+    <item type="id" name="ampm_hitspace">false</item>
+    <item type="id" name="ampm_label">false</item>
+    <item type="id" name="time_picker_dialog">false</item>
+    <item type="id" name="time_display_background">false</item>
+    <item type="id" name="time_picker">false</item>
+    <item type="id" name="line">false</item>
+    <item type="id" name="done_button">false</item>
+    <item type="id" name="timer_list">false</item>
+    <item type="id" name="timer_add">false</item>
+    <item type="id" name="timer_item_time">false</item>
+    <item type="id" name="timer_item_switch">false</item>
+    <item type="id" name="timer_item_weekdays_layout">false</item>
+    <item type="id" name="timer_item_weekdays">false</item>
+    <item type="id" name="timer_item_action_label">false</item>
+    <item type="id" name="timer_item_action">false</item>
+    <item type="id" name="timer_item_action_out_label">false</item>
+    <item type="id" name="timer_item_action_out">false</item>
+    <item type="id" name="timer_item_name_editor">false</item>
+    <item type="id" name="timer_item_expand">false</item>
+    <item type="id" name="timer_item_summary">false</item>
+    <item type="id" name="timer_item_delete">false</item>
+    <item type="id" name="tab_actionbar_layout">false</item>
+    <item type="id" name="domo_activity_shadow">false</item>
+    <item type="id" name="rootLayout">false</item>
+    <item type="id" name="widget">false</item>
+    <item type="id" name="widget_bg">false</item>
+    <item type="id" name="visible">false</item>
+    <item type="id" name="masked">false</item>
+    <item type="id" name="menu_action_save">false</item>
+    <item type="id" name="action_delete">false</item>
+    <item type="id" name="menu_action_edit">false</item>
+    <item type="id" name="menu_action_bookmark">false</item>
+    <item type="id" name="menu_action_forward">false</item>
+    <item type="id" name="menu_action_refresh">false</item>
+    <item type="id" name="menu_action_bookmarks">false</item>
+    <item type="id" name="menu_action_downloads">false</item>
+    <item type="id" name="action_save">false</item>
+    <item type="id" name="menu_action_theme">false</item>
+    <item type="id" name="menu_action_delete">false</item>
+    <item type="id" name="menu_action_clear">false</item>
+    <item type="id" name="main_toolbar_menu_profile">false</item>
+    <item type="id" name="main_toolbar_menu_new_profile">false</item>
+    <item type="id" name="main_toolbar_menu_timer">false</item>
+    <item type="id" name="main_toolbar_menu_location">false</item>
+    <item type="id" name="menu_actionbar_number_color">false</item>
+    <item type="id" name="menu_actionbar_edit">false</item>
+    <item type="id" name="picture_hider_images_toolbar_menu_delete">false</item>
+    <item type="id" name="picture_hider_images_toolbar_menu_checkall">false</item>
+    <item type="id" name="picture_hider_images_toolbar_menu_unlock">false</item>
+    <item type="id" name="menu_action_help">false</item>
+    <item type="id" name="menu_delete">false</item>
+    <item type="id" name="menu_theme_picker_unlock_background">false</item>
+</resources>

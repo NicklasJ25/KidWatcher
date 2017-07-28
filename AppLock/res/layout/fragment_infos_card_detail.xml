@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c1134b/fragment_infos_card" app:paddingLeft="@dimen/plugins_appitem_padding" app:paddingTop="@dimen/plugins_appitem_padding" app:paddingRight="@dimen/plugins_appitem_padding" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/CardView">
+        <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:background="@color/white" app:padding="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="@dimen/TextSizeLarge" app:textStyle="bold" app:textColor="@color/accent_material_light" app:id="@c1134b/fragment_infos_card_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" />
+            <TextView app:textSize="@dimen/TextSizeSmaller" app:textColor="0x1060007" app:id="@c1134b/fragment_infos_card_message" app:paddingTop="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="150dp" app:text="@c1137e/userinfo_premium" app:layout_below="@c1134b/fragment_infos_card_title" />
+            <TextView app:id="@c1134b/fragment_infos_card_button1" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:text="@c1137e/download_theme" app:layout_below="@c1134b/fragment_infos_card_message" app:layout_alignParentRight="true" style="@style/custom_dialog_button" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

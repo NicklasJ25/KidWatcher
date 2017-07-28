@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@c1134b/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@c1134b/remain_time_textview" android:visibility="gone" style="@c1138f/image_gallery_remain_text" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@c1134b/remain_time_textview">
+        <android.support.v7.widget.RecyclerView android:id="@c1134b/listview" android:paddingLeft="@dimen/image_gallery_item_space" android:paddingTop="@dimen/PaddingSizeSmall" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/adview_layout" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08007b" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ads_layout" />
+    <RelativeLayout android:orientation="vertical" android:id="@c1134b/no_images" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/no_pictures_image" android:background="@c1133a/toolbar_noimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

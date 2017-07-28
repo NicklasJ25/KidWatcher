@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@c1134b/scroll_view" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/PaddingSizeSmaller" android:paddingTop="@dimen/PaddingSizeMiddle" android:paddingRight="@dimen/PaddingSizeSmaller" android:paddingBottom="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@c1134b/details_thumbnail_image" android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@c1134b/details_image_title" android:paddingLeft="@dimen/PaddingSizeSmaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TableLayout android:paddingLeft="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeMiddle" android:shrinkColumns="3">
+            <TableRow>
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:text="@string/details_file_size" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010036" android:id="@c1134b/details_file_size_value" android:paddingLeft="@dimen/PaddingSizeSmaller" />
+            </TableRow>
+            <TableRow android:id="@c1134b/details_resolution_row">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:text="@string/details_image_resolution" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010036" android:id="@c1134b/details_resolution_value" android:paddingLeft="@dimen/PaddingSizeSmaller" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@c1134b/details_duration_row">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:text="@string/details_duration" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010036" android:id="@c1134b/details_duration_value" android:paddingLeft="@dimen/PaddingSizeSmaller" />
+            </TableRow>
+            <TableRow android:id="@c1134b/details_date_taken_row">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:text="@string/details_date_taken" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010036" android:id="@c1134b/details_date_taken_value" android:paddingLeft="@dimen/PaddingSizeSmaller" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

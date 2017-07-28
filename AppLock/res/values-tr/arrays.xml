@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="premium_features_arrary">
+        <item>Fotoğraf Kutusu</item>
+        <item>Video Kutusu</item>
+        <item>Arka planı özelleştirin, en sevdiğiniz fotoğrafı ayarlayın</item>
+        <item>Profiller, kilitleri değiştirmek kolay</item>
+        <item>Belirli bir anda otomatik kilitle</item>
+        <item>Belirli bir konumda otomatik kilitle</item>
+        <item>AppLock simgesini gizle</item>
+        <item>Rastgele klavye</item>
+        <item>Kilit anahtarı (WiFi, BT, 3G/4G Veri...)</item>
+        <item>Yakında daha fazla özellik ...</item>
+    </array>
+    <array name="shortest_weekdays">
+        <item>P</item>
+        <item>P</item>
+        <item>S</item>
+        <item>Ç</item>
+        <item>P</item>
+        <item>C</item>
+        <item>C</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/card_page_bgcolor" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.CardView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="30dp" app:layout_marginTop="@dimen/PaddingSizeLarge" app:layout_marginRight="30dp" style="@style/CardView">
+        <ImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@c1134b/theme_apply_image" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="65dp" app:scaleType="center" />
+        <FrameLayout app:id="@c1134b/theme_fc" app:background="@color/default_fakeview_forground_color" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="65dp">
+            <include layout="@c1135c/fake_apply_layout" />
+        </FrameLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="?attr/selectableItemBackground" app:padding="@dimen/PaddingSizeLarge" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4101">
+            <TextView app:textSize="@dimen/TextSizeMiddle" app:textColor="@color/actionbar_toolbar_background" app:id="0x1020016" app:layout_width="UNKNOWN_DATA_0x7f080032" app:layout_height="wrap_content" app:maxLines="1" app:layout_weight="1.0" />
+            <android.support.v7.widget.SwitchCompat app:id="0x1020001" app:focusable="false" app:focusableInTouchMode="false" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:showText="false" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

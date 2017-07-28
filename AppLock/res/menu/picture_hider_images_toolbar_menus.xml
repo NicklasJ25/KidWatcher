@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@c1133a/toolbar_trash" android:id="@c1134b/picture_hider_images_toolbar_menu_delete" android:orderInCategory="1" android:title="@string/delete" />
+    <item android:icon="@c1133a/toolbar_select_all" android:id="@c1134b/picture_hider_images_toolbar_menu_checkall" android:orderInCategory="2" android:title="@string/select_all" />
+    <item android:icon="@c1133a/toolbar_unlock" android:id="@c1134b/picture_hider_images_toolbar_menu_unlock" android:orderInCategory="3" android:title="@c1137e/revert" />
+</menu>

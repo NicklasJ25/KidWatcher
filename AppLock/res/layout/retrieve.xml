@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/settings_page_bgcolor" app:padding="@dimen/PaddingSizeSmaller" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmallest" style="@style/CardView">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:text="@c1137e/secure_answer_setting_title" style="@c1138f/secure_card_title_text" />
+            <LinearLayout app:orientation="vertical" app:padding="@dimen/retrive_automic_marginTop" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080032" app:layout_weight="1.0">
+                <EditText app:id="@c1134b/retrieve_security_question_edittext" app:layout_height="UNKNOWN_DATA_0x7f08015e" app:hint="@c1137e/security_question" style="@c1138f/card_edittext" />
+                <EditText app:id="@c1134b/retrieve_security_answer_edittext" app:layout_height="UNKNOWN_DATA_0x7f08015e" app:hint="@c1137e/security_answer" style="@c1138f/card_edittext" />
+                <TextView app:textColor="?attr/textColorSummary" app:layout_marginLeft="@dimen/PaddingSizeSmaller" app:layout_marginTop="@dimen/PaddingSizeLarge" app:text="@c1137e/secure_email" style="@c1138f/comment_text" />
+                <EditText app:id="@c1134b/retrieve_security_email_edittext" app:hint="@c1137e/secure_email_hint" style="@c1138f/card_edittext" />
+            </LinearLayout>
+            <View app:layout_marginTop="@dimen/retrive_automic_marginTop" style="@c1138f/card_button_topline" />
+            <Button app:id="@c1134b/retrieve_password_setting_save_button" app:text="@string/save" style="@c1138f/card_bottom_button" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</ScrollView>

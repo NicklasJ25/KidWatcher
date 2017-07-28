@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/toolbar_search" app:id="@id/menu_actionbar_search" app:title="@string/domo_search" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="always|collapseActionView" app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item app:icon="@c1133a/toolbar_theme" app:id="@c1134b/menu_action_theme" app:title="@c1137e/themes_picker" app:showAsAction="always|collapseActionView" />
+</menu>

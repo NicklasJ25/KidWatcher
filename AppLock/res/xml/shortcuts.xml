@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@c1133a/icon_shortcut_unlock_all" android:enabled="true">
+        <intent android:targetPackage="com.domobile.applock" android:action="com.domobile.applock.ACTION_STARTUP_PROFILE_EXPORT" android:data="master" android:targetClass="com.domobile.applock.MainActivity">
+            <extra android:name="com.domobile.applock.EXTRA_PROFILE_ID" android:value="-1" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@c1133a/icon_shortcut_guest" android:enabled="true">
+        <intent android:targetPackage="com.domobile.applock" android:action="com.domobile.applock.ACTION_STARTUP_PROFILE_EXPORT" android:data="guest" android:targetClass="com.domobile.applock.MainActivity">
+            <extra android:name="com.domobile.applock.EXTRA_PROFILE_ID" android:value="-2" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

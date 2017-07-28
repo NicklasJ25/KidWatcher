@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/default_page_bgcolor" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@c1134b/single_setting_top" app:background="@c1133a/pref_single_item_background" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c1134b/single_settings_item" app:background="?attr/selectableItemBackground" app:paddingLeft="@dimen/PaddingSizeSmaller" app:paddingRight="?unknown_attr_ref: 1010063" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/hide_applock_setting_itemHeight">
+            <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="0x1020006" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            <RelativeLayout app:layout_width="UNKNOWN_DATA_0x7f080032" app:layout_height="wrap_content" app:layout_margin="@dimen/hide_applock_margin" app:layout_weight="1.0">
+                <TextView app:id="0x1020016" style="@c1138f/hide_applock_pref_title" />
+                <TextView app:id="0x1020010" app:layout_below="0x1020016" app:layout_alignLeft="0x1020016" style="@c1138f/hide_applock_pref_summary" />
+            </RelativeLayout>
+            <android.support.v7.widget.SwitchCompat app:id="@c1134b/single_setting_switcher" app:background="0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:showText="false" />
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView app:paddingLeft="@dimen/PaddingSizeSmaller" app:paddingRight="@dimen/PaddingSizeSmaller" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="-7dp" app:layout_below="@c1134b/single_setting_top" app:overScrollMode="never">
+        <com.domobile.eframe.ui.NotifyChangedLinearLayout app:orientation="vertical" app:id="@c1134b/single_setting_content" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

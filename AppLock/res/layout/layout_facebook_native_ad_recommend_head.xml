@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@c1134b/native_ad_unit" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.facebook.ads.MediaView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/native_ad_media" app:layout_width="wrap_content" app:layout_height="match_parent" />
+    <com.domobile.lib_blurview.BlurView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/blurView" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/PaddingSizeMiddle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/native_ad_icon" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:contentDescription="0x0" />
+            <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/PaddingSizeMiddle" app:layout_marginRight="@dimen/PaddingSizeMiddle" app:layout_weight="1.0">
+                <FrameLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <TextView app:textSize="@dimen/TextSizeSmall" app:textColor="@color/primary_textcolor" app:ellipsize="end" app:id="@id/native_ad_title" app:paddingRight="28dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+                    <LinearLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/ad_choices_container" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+                </FrameLayout>
+                <TextView app:textSize="@dimen/TextSizeSmallest" app:textColor="@color/secondary_textcolor" app:ellipsize="end" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/native_ad_body" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/PaddingSizeSmaller" app:maxLines="1" />
+            </LinearLayout>
+            <TextView app:textSize="@dimen/TextSizeSmallest" app:textColor="0x106000b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/native_ad_call_to_action" app:background="@drawable/btn_native_ad_action_selector" app:paddingLeft="@dimen/PaddingSizeSmaller" app:paddingRight="@dimen/PaddingSizeSmaller" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1c01" />
+        </LinearLayout>
+    </com.domobile.lib_blurview.BlurView>
+</FrameLayout>

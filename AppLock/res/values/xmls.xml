@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="applock_setting">res/xml/applock_setting.xml</xml>
+    <xml name="device_admin">res/xml/device_admin.xml</xml>
+    <xml name="file_paths">res/xml/file_paths.xml</xml>
+    <xml name="manage_space">res/xml/manage_space.xml</xml>
+    <xml name="serviceconfig">res/xml/serviceconfig.xml</xml>
+    <xml name="shortcuts">res/xml/shortcuts.xml</xml>
+    <xml name="shortcuts">res/xml-v22/shortcuts.xml</xml>
+    <xml name="switch_widget">res/xml/switch_widget.xml</xml>
+</resources>

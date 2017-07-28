@@ -1,0 +1,20 @@
+[
+    {
+        "name": "@string/none_operation",
+        "summary": "",
+        "type": "com.domobile.applock.fake.DefaultFakeViewInitialer",
+        "pic": ""
+    },
+    {
+        "name": "@string/fake_page_scanner",
+        "summary": "@string/fake_page_tap_scanner",
+        "type": "com.domobile.applock.fake.FingerScannerFakeViewInitialer",
+        "pic": "@drawable/scanner"
+    },
+    {
+        "name": "@string/fake_page_force_stop",
+        "summary": "@string/fake_page_tap_button",
+        "type": "com.domobile.applock.fake.FCFakeViewInitialer",
+        "pic": "@drawable/fc"
+    }
+]

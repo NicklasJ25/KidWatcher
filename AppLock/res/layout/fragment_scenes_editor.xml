@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/bottom_layout" android:background="@drawable/toolbar_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4401" android:layout_alignParentBottom="true">
+        <View android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x1" />
+        <TextView android:textSize="@dimen/TextSizeMiddle" android:textStyle="bold" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/save" android:background="@c1133a/scenes_editor_button_save" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_margin="@dimen/PaddingSizeSmaller" android:text="@string/save" android:layout_weight="1.0" />
+        <com.domobile.widget.ActionImageView android:id="@c1134b/selecct_all" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="match_parent" android:src="@c1133a/scenes_editor_select_all" android:scaleType="centerInside" android:contentDescription="@string/select_all" />
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@c1134b/locker_swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@c1134b/bottom_layout">
+        <android.support.v7.widget.RecyclerView android:id="@c1134b/main_list" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

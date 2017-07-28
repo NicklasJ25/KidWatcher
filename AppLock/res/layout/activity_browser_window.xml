@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/bg_white_std" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:orientation="vertical" app:id="@c1134b/appBarLayout" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@c1134b/toolbar" app:background="@color/material_blue_grey_800" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004f" app:minHeight="?attr/actionBarSize" app:popupTheme="?attr/actionBarPopupTheme" app:layout_scrollFlags="15" app:navigationIcon="@c1133a/icon_close_white" app:theme="?attr/actionBarTheme" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.domobile.widget.webview.NestedScrollWebView app:id="@c1134b/mWebView" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <ProgressBar app:id="@c1134b/pbLoadProgress" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x301" style="?unknown_attr_ref: 1010078" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080032" android:layout_marginBottom="@dimen/PaddingSizeLarge" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@c1134b/about_header" android:background="@color/actionbar_toolbar_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001">
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/about_app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeXLarge" android:src="@c1133a/icon" />
+                <TextView android:id="@c1134b/about_app_name" android:text="@string/app_name" style="@c1138f/about_activity_appname_text" />
+                <TextView android:textSize="@dimen/TextSizeSmallest" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c1134b/about_app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeSmaller" />
+                <TextView android:layout_marginTop="@dimen/PaddingSizeSmaller" android:text="@c1137e/pyp" style="@c1138f/about_activity_pyp_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@c1134b/about_weburl" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601">
+                    <ImageView android:id="@id/icon" android:src="@c1133a/toolbar_browser" style="@c1138f/about_activity_button_icon" />
+                    <TextView android:text="www.domobile.com" style="@c1138f/about_activity_button" />
+                    <View style="@c1138f/about_activity_button_divider" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@c1134b/about_email" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601">
+                    <ImageView android:id="@id/icon" android:src="@drawable/toolbar_send" style="@c1138f/about_activity_button_icon" />
+                    <TextView android:text="support@domobile.com" style="@c1138f/about_activity_button" />
+                    <View style="@c1138f/about_activity_button_divider" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@c1134b/about_change_log" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601">
+                    <ImageView android:id="@id/icon" android:src="@c1133a/toolbar_changelog" style="@c1138f/about_activity_button_icon" />
+                    <TextView android:text="@c1137e/changelog" style="@c1138f/about_activity_button" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="@dimen/PaddingSizeXXLarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/PaddingSizeXXLarge">
+                <ImageButton android:id="@c1134b/about_gplus" android:layout_marginRight="@dimen/PaddingSizeXXLarge" android:src="@c1133a/icon_gplus" style="@c1138f/about_activity_social_button" />
+                <ImageButton android:id="@c1134b/about_facebook" android:layout_marginLeft="@dimen/PaddingSizeXXLarge" android:layout_marginRight="@dimen/PaddingSizeXXLarge" android:src="@c1133a/icon_facebook" style="@c1138f/about_activity_social_button" />
+                <ImageButton android:id="@c1134b/about_twitter" android:layout_marginLeft="@dimen/PaddingSizeXXLarge" android:src="@c1133a/icon_twitter" style="@c1138f/about_activity_social_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:id="@c1134b/about_copyright" android:text="Copyright © 2011–2017 DoMobile Ltd.
+All Rights Reserved." style="@c1138f/about_activity_copyright_text" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/PaddingSizeMiddle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@c1134b/push_dialog_top_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@c1134b/push_dialog_content_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08015b" android:layout_height="UNKNOWN_DATA_0x7f08015b" android:src="@c1133a/icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/TextSizeMiddle" android:textStyle="bold" android:textColor="?attr/textColorDefault" android:id="@c1134b/push_dialog_content_maintitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@c1134b/push_dialog_content_icon" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/TextSizeSmall" android:textColor="?attr/textColorSummary" android:id="@c1134b/push_dialog_content_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@c1134b/push_dialog_content_icon" android:layout_below="@c1134b/push_dialog_content_maintitle" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/TextSizeMiddle" android:textColor="?attr/textColorDefault" android:id="@c1134b/push_dialog_content_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

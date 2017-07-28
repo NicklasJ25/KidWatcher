@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:duration="500" android:drawable="@c1133a/privacy_notification_anim_2" />
+    <item android:duration="500" android:drawable="@c1133a/privacy_notification_anim_1" />
+    <item android:duration="500" android:drawable="@c1133a/privacy_notification_anim_2" />
+    <item android:duration="500" android:drawable="@c1133a/privacy_notification_anim_1" />
+    <item android:duration="500" android:drawable="@c1133a/privacy_notification_anim_2" />
+    <item android:duration="500" android:drawable="@c1133a/privacy_notification_anim_1" />
+</animation-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="guide_secure_parent">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">480.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="guide_step_parent">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/guide_step_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/guide_step_paddingLeft</item>
+        <item name="android:layout_width">480.0dip</item>
+        <item name="android:layout_height">@dimen/guide_step_height</item>
+    </style>
+</resources>
