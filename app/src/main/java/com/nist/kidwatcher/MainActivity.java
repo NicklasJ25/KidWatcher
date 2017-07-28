@@ -9,8 +9,6 @@ import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener
 {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -38,6 +36,4 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
             stopService(intent);
         }
     }
-
-
 }
