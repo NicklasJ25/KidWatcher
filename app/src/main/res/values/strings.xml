@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Kid Watcher</string>
 
+    //Permissions
+    <string name="usageAccessTitle">Request for usage access</string>
+    <string name="usageAccessContent">For the app to work, you have to enable usage access</string>
+
+    //activity_main
     <string name="headerTextView">Welcome to Kid Watcher</string>
     <string name="startServiceSwitch">Start service</string>
+
+    //custom_dialog
+    <string name="cancelButton">Cancel</string>
+    <string name="okButton">Ok</string>
 </resources>

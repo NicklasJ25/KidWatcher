@@ -2,7 +2,9 @@ package com.nist.kidwatcher;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.IBinder;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MyService extends Service
@@ -17,9 +19,28 @@ public class MyService extends Service
     @Override
     public int onStartCommand(Intent intent, int flags, int startId)
     {
-        //TODO: Kig efter forkerte ord.
-        //TODO: Send mail.
+        //TODO: Tag screenshot hvert 10. sekund
         Toast.makeText(this, "onStartCommand", Toast.LENGTH_LONG).show();
+        new AsyncTask()
+        {
+            @Override
+            protected Object doInBackground(Object... arg0)
+            {
+                try
+                {
+                    Thread.sleep(10000);
+                    Screenshot screenshot = new Screenshot();
+                    screenshot.TakeScreenshot();
+                    Toast.makeText(getBaseContext(), "Screenshot taget", Toast.LENGTH_LONG).show();
+                    return "Godkendt";
+                } catch (Exception e)
+                {
+                    e.printStackTrace();
+                    return "Fejl";
+                }
+            }
+        }.execute();
+
         return START_STICKY;
     }
 
@@ -35,4 +56,6 @@ public class MyService extends Service
     {
         Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
     }
+
+
 }

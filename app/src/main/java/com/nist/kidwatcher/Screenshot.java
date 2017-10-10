@@ -3,6 +3,7 @@ package com.nist.kidwatcher;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.os.Environment;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import java.io.ByteArrayOutputStream;
@@ -13,15 +14,23 @@ import java.io.FileOutputStream;
  * Created by nist on 25-07-2017.
  */
 
-public class Screenshot
+public class Screenshot extends AppCompatActivity
 {
+    private View v;
+
+    public Screenshot()
+    {
+        v = getWindow().getDecorView().findViewById(android.R.id.content);
+    }
+
     //Take screenshot
-    public Bitmap TakeScreenshot(View v)
+    public Bitmap TakeScreenshot()
     {
         Bitmap screenshot = null;
 
         try
         {
+
             //Get width and height of view
             int width = v.getMeasuredWidth();
             int height = v.getMeasuredHeight();

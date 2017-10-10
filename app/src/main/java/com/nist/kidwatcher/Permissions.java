@@ -1,10 +1,22 @@
 package com.nist.kidwatcher;
 
 import android.app.Activity;
+import android.app.AppOpsManager;
+import android.app.Dialog;
+import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Process;
+import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import static android.app.AppOpsManager.MODE_ALLOWED;
+import static android.app.AppOpsManager.OPSTR_GET_USAGE_STATS;
 
 public class Permissions extends AppCompatActivity
 {
@@ -67,5 +79,41 @@ public class Permissions extends AppCompatActivity
             // other 'case' lines to check for other
             // permissions this app might request
         }
+    }
+
+    public void RequestUsageAccess()
+    {
+        AppOpsManager appOps = (AppOpsManager) activity.getSystemService(Context.APP_OPS_SERVICE);
+        int mode = appOps.checkOpNoThrow(OPSTR_GET_USAGE_STATS, Process.myUid(), activity.getPackageName());
+        if (mode != MODE_ALLOWED)
+        {
+            final Dialog dialog = new Dialog(activity);
+            dialog.setContentView(R.layout.custom_dialog);
+            dialog.setTitle(R.string.usageAccessTitle);
+
+            TextView text = (TextView) dialog.findViewById(R.id.textView);
+            text.setText(R.string.usageAccessContent);
+
+            Button cancelButton = (Button) dialog.findViewById(R.id.cancelButton);
+            cancelButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    dialog.dismiss();
+                }
+            });
+            Button okButton = (Button) dialog.findViewById(R.id.okButton);
+            okButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS));
+                    dialog.dismiss();
+                }
+            });
+
+            dialog.show();
+        }
+
+
+
     }
 }
